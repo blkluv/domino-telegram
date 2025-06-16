@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+    <meta content="no-cache" http-equiv="Pragma"/>
+    <meta content="0" http-equiv="Expires"/>
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preload" href="./assets/fonts/Commissioner-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/Commissioner-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/Commissioner-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/Commissioner-800.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/Commissioner-900-Italic.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- HTML Meta Tags -->
+    <title>Domino-King. Best domino game online!</title>
+    <meta content="Now you can play domino online without downloading mobile app!" name="description">
+</head>
+<body style="overflow: hidden;">
+<div class="overflow_wrapper" id="wrapper">
+    <div class="logo_container">
+        <div class="char"></div>
+        <img class="logo" id="logo" src="./images/logo_fb.webp" alt="logo"></img>
+    </div>
+    <div id="app"></div>
+    <div class="preloader" id="preloader">
+        <div class="preloader_inner">
+            <div>
+                <center>
+                    <div class="preloader_text" id="loading_text"
+                         style=" font-size:5vh;margin-top:-100px;margin-bottom:20px;"></div>
+                </center>
+                <div class="progress_bar" id="progress_bar">
+                    <div class="bar" id="bar"></div>
+                </div>
+                <center>
+                    <div class="preloader_text bar_percents" id="bar_percents">0%</div>
+                </center>
+            </div>
+            <div id="no_webgl" class="no_webgl">
+                <img src="images/alert.png" style="margin: 3vh; width:20vh;height:20vh;"/>
+                <div style="font-size: 5vh; white-space: nowrap;">You must turn on WebGL to play</div>
+                <div style="font-size: 4vh; white-space: nowrap;">Чтобы играть, включите поддержку WebGL</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var preloaderDiv = document.getElementById("preloader");
+    var preloaderWidth = 800;
+    var preloaderHeight = 1000;
+
+    var preloaderRatio = preloaderWidth / preloaderHeight;
+
+    function resize() {
+        return;
+        // We execute the same script as before
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+        let vl = window.innerWidth * 0.01;
+        document.documentElement.style.setProperty('--vl', `${vl}px`);
+        //console.log(window.innerWidth / window.innerHeight, preloaderRatio)
+        if (window.innerWidth / window.innerHeight < preloaderRatio) {
+            var scale = window.innerWidth / preloaderWidth;
+            preloaderDiv.style.marginLeft = (window.innerWidth - preloaderWidth) / 2 + "px";
+            preloaderDiv.style.marginTop = (-preloaderWidth / preloaderRatio + window.innerHeight) / 2 + "px";
+        } else {
+            var scale = window.innerHeight / preloaderHeight;
+            preloaderDiv.style.marginTop = (window.innerHeight - preloaderHeight) / 2 + "px";
+            preloaderDiv.style.marginLeft = (-preloaderHeight * preloaderRatio + window.innerWidth) / 2 + "px";
+        }
+        preloaderDiv.style.transform = 'scale(' + scale + ')';
+    }
+
+    resize();
+    window.addEventListener('resize', resize);
+
+    window.htmlPlatform = "FACEBOOK";
+
+    window.noWebGL = function () {
+        document.getElementById("no_webgl").style.display = "flex";
+        document.getElementById("logo").style.display = "none";
+        document.getElementById("progress_bar").style.display = "none";
+    }
+
+    window.progressDiv = document.getElementById("bar");
+    loadFBInstant();
+
+    function loadFBInstant() {
+        let FBInstantRequest = new XMLHttpRequest();
+        FBInstantRequest.addEventListener("load", function (event) {
+            let Element = document.createElement("script");
+            Element.append(event.target.response);
+            Element.type = "text/javascript";
+            document.body.appendChild(Element);
+            loadVersion();
+        }, false);
+
+        FBInstantRequest.addEventListener("progress", function (event) {
+            let percentComplete = Math.min(event.loaded / 307200, 1);
+            console.log("FBInstant percentComplete", percentComplete);
+            window.progressDiv.style.width = Math.ceil(4 + percentComplete * 4) + "%";//Берем 4% за загруженный fbinstant.7.1 (а 4% это минимальный размер бара чтобы норм. отображалось загругление углов на старте)
+        }, false);
+
+        FBInstantRequest.open("GET", "https://connect.facebook.net/en_US/fbinstant.7.1.js");
+        FBInstantRequest.send();
+    }
+
+    function loadVersion() {
+        let versionRequest = new XMLHttpRequest();
+        versionRequest.addEventListener("load", async function (event) {
+            window.gameBundleVersion = event.target.response;
+            // @ts-ignore
+            await FBInstant.initializeAsync();
+            loadBundle();
+        }, false);
+
+        versionRequest.open("GET", "./cfg/version.txt?" + Math.floor(Math.random() * 1000));
+        versionRequest.send();
+    }
+
+    function loadBundle() {
+        let scriptRequest = new XMLHttpRequest();
+        let progressDiv = document.getElementById("bar");
+        let persentsText = document.getElementById("bar_percents");
+        scriptRequest.addEventListener("progress", function (event) {
+            let percentComplete = event.loaded / 2554370;
+            let persentsMax5 = Math.max(7, Math.ceil(percentComplete * 20));
+            let percentsMin20 = Math.min(persentsMax5, 20)
+            let percents = percentsMin20 + "%";// см. index.html "progressDiv.style.width"
+            progressDiv.style.width = percentsMin20 + "%";//Берем 20% за загруженный main.bundle.js
+            persentsText.innerText = percents;
+        }, false);
+
+        scriptRequest.addEventListener("load", function (event) {
+            let Element = document.createElement("script");
+            Element.append(event.target.response); //Element.src = "main.bundle.js";
+            Element.type = "text/javascript";
+            document.body.appendChild(Element);
+        }, false);
+
+        scriptRequest.open("GET", "bundle.js?" + window.gameBundleVersion);
+        scriptRequest.send();
+    }
+
+    window.loadingTextDiv = document.getElementById("loading_text");
+    window.language = !!window["FBInstant"] ? FBInstant.getLocale() : window.navigator.language;
+    var localStorageLanguage = JSON.parse(window.localStorage.getItem("CURRENT_LANGUAGE"));
+    if (localStorageLanguage != null) {
+        window.language = localStorageLanguage;
+    }
+
+    let ladingTextLocales = {
+        en: "Loading...",
+        ru: "Загрузка...",
+        fr: "Chargement...",
+        es: "Cargando...",
+        th: "กำลังโหลด...",
+        vi: "Đang tải...",
+        id: "Memuat...",
+        ms: "Memuatkan..."
+    }
+
+    switch (true) {
+        case window.language.includes("ru"):
+            loadingTextDiv.innerText = ladingTextLocales.ru;
+            break;
+        case window.language.includes("fr"):
+            loadingTextDiv.innerText = ladingTextLocales.fr;
+            break;
+        case window.language.includes("es"):
+            loadingTextDiv.innerText = ladingTextLocales.es;
+            break;
+        case window.language.includes("th"):
+            loadingTextDiv.innerText = ladingTextLocales.th;
+            break;
+        case window.language.includes("vi"):
+            loadingTextDiv.innerText = ladingTextLocales.vi;
+            break;
+        case window.language.includes("id"):
+            loadingTextDiv.innerText = ladingTextLocales.id;
+            break;
+        case window.language.includes("ms"):
+            loadingTextDiv.innerText = ladingTextLocales.ms;
+            break;
+        default:
+            loadingTextDiv.innerText = ladingTextLocales.en;
+    }
+</script>
+</body>
+</html>

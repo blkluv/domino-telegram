@@ -1,0 +1,13 @@
+<code_scheme name="Default copy" version="173">
+  <option name="RIGHT_MARGIN" value="250" />
+  <TypeScriptCodeStyleSettings version="0">
+    <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="SPACES_WITHIN_OBJECT_TYPE_BRACES" value="false" />
+    <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+  </TypeScriptCodeStyleSettings>
+  <codeStyleSettings language="TypeScript">
+    <option name="RIGHT_MARGIN" value="250" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="BLANK_LINES_AFTER_IMPORTS" value="2" />
+  </codeStyleSettings>
+</code_scheme>

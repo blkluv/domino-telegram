@@ -1,0 +1,158 @@
+:root {
+    color-scheme: only light;
+}
+
+html, body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-width: 100%;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    overflow: hidden;
+}
+
+body {
+    background-image: url('images/lagoon.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#app {
+    position: absolute;
+    width: 100%;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+.overflow_wrapper {
+    position: relative;
+    overflow: hidden;
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100%;
+
+}
+
+.logo_container {
+}
+
+.logo {
+    max-height: 30vh;
+    max-width: 90%;
+    top: 3%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.char {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-width: 1147px;
+    height: 75vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 75);
+    top: 25%;
+    background-image: url('images/char.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.preloader {
+    width: 100%;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+.preloader_inner {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 80%;
+    max-width: 800px;
+}
+
+.preloader_inner div {
+    width: 100%;
+}
+
+.no_webgl {
+    font-family: "Commissioner";
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    width: 50%;
+    height: 50%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress_bar {
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 20px;
+/ / border: 2 px solid #fff;
+    outline: 2px solid #fff;
+    outline-offset: 4px;
+/ / padding: 2 px;
+/ / box-shadow: 0 px 0 px 32 px 0 px rgba(47, 32, 189, 0.6);
+}
+
+.bar {
+    box-sizing: border-box;
+    background-image: url("./images/bar.png");
+    background-repeat: repeat-x;
+    background-position-x: 0px;
+    background-position-y: center;
+    background-color: rgba(135, 49, 215, 64);
+    min-width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.preloader_text {
+    color: white;
+    font-family: 'Commissioner';
+    font-weight: 600;
+    text-shadow: -2px -2px 0 #631FF5,
+    0 -2px 0 #631FF5,
+    2px -2px 0 #631FF5,
+    2px 0 0 #631FF5,
+    2px 2px 0 #631FF5,
+    0 2px 0 #631FF5,
+    -2px 2px 0 #631FF5,
+    -2px 0 0 #631FF5;
+}
+
+.bar_percents {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: -42px;
+    margin-bottom: 80px;
+    text-shadow: -2px -2px 0 #631FF5,
+    0 -2px 0 #631FF5,
+    2px -2px 0 #631FF5,
+    2px 0 0 #631FF5,
+    2px 2px 0 #631FF5,
+    0 2px 0 #631FF5,
+    -2px 2px 0 #631FF5,
+    -2px 0 0 #631FF5;
+}
+

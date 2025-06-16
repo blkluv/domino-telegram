@@ -1,0 +1,147 @@
+{"frames": {
+
+"tutorial/block_move.png":
+{
+	"frame": {"x":1292,"y":3,"w":1001,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1001,"h":410},
+	"sourceSize": {"w":1001,"h":410},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/bottom_list_gradient.png":
+{
+	"frame": {"x":3,"y":3,"w":94,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":94},
+	"sourceSize": {"w":94,"h":94},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/btn_block.png":
+{
+	"frame": {"x":466,"y":3,"w":266,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":266,"h":176},
+	"sourceSize": {"w":266,"h":176},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/btn_classic.png":
+{
+	"frame": {"x":1019,"y":3,"w":270,"h":203},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":270,"h":203},
+	"sourceSize": {"w":270,"h":203},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/btn_fives.png":
+{
+	"frame": {"x":199,"y":3,"w":264,"h":170},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":264,"h":170},
+	"sourceSize": {"w":264,"h":170},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/btn_king.png":
+{
+	"frame": {"x":735,"y":3,"w":281,"h":181},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":281,"h":181},
+	"sourceSize": {"w":281,"h":181},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/classic_game_end.png":
+{
+	"frame": {"x":2296,"y":3,"w":996,"h":411},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":996,"h":411},
+	"sourceSize": {"w":996,"h":411},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/classic_move.png":
+{
+	"frame": {"x":1002,"y":416,"w":996,"h":846},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":996,"h":846},
+	"sourceSize": {"w":996,"h":846},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/classic_points.png":
+{
+	"frame": {"x":3,"y":187,"w":996,"h":411},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":996,"h":411},
+	"sourceSize": {"w":996,"h":411},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/classic_round_end.png":
+{
+	"frame": {"x":3,"y":601,"w":996,"h":868},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":996,"h":868},
+	"sourceSize": {"w":996,"h":868},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/fives_move.png":
+{
+	"frame": {"x":1002,"y":1273,"w":996,"h":1291},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":996,"h":1291},
+	"sourceSize": {"w":996,"h":1291},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/fives_points.png":
+{
+	"frame": {"x":2001,"y":417,"w":996,"h":853},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":996,"h":853},
+	"sourceSize": {"w":996,"h":853},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/king_mode_end_game.png":
+{
+	"frame": {"x":3,"y":2272,"w":997,"h":3075},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":997,"h":3075},
+	"sourceSize": {"w":997,"h":3075},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/king_mode_points.png":
+{
+	"frame": {"x":3295,"y":3,"w":996,"h":595},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":996,"h":595},
+	"sourceSize": {"w":996,"h":595},
+	"anchor": {"x":0,"y":0}
+},
+"tutorial/top_list_gradient.png":
+{
+	"frame": {"x":100,"y":3,"w":96,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":96},
+	"sourceSize": {"w":96,"h":96},
+	"anchor": {"x":0,"y":0}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "lazy.webp",
+	"format": "RGBA8888",
+	"size": {"w":4096,"h":4096},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:98a0d2932abce36d1ea82a2007169575:acc79294b3b63b5c808919549af7ee08:75456e5bb95f4bbceed35276c8b1d16c$"
+}
+}

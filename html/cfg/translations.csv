@@ -1,0 +1,369 @@
+key :: EN [en] :: RU [ru] :: FR [fr] :: ES [es] :: TH [th] :: VI [vi] :: IN [in] :: MS [ms] :: :
+:Profile/ChangeName :: Change Name :: Изменить имя :: Modifier le nom :: Cambiar nombre :: เปลี่ยนชื่อ :: Đổi Tên :: Ganti Nama :: Tukar Nama :: :
+:Profile/ChangeAvatar :: Change Avatar :: Сменить аватар :: Modifier l'avatar :: Cambiar avatar :: เปลี่ยนอวาทาร์ :: Thay Đổi Hình Đại Diện :: Ganti Avatar :: Tukar Avatar :: :
+:Profile/Title :: PROFILE :: ПРОФИЛЬ :: PROFIL :: PERFIL :: โปรไฟล์ :: HỒ SƠ :: PROFIL :: PROFIL :: :
+:Profile/Achievement :: Achievement :: Достижения :: Succès :: Logro :: ความสำเร็จ :: Thành Tích :: Prestasi :: Pencapaian :: :
+:Profile/Trophies :: Trophies :: Трофеи :: Trophées :: Trofeos :: ถ้วยรางวัล :: Cúp :: Trofi :: Trofi :: :
+:Profile/Statistics :: Statistics :: Статистика :: Statistiques :: Estadísticas :: สถิติ :: Chỉ Số :: Statistik :: Statistik :: :
+:Profile/Statistics/Classic :: Classic :: Классика :: Classique :: Clásico :: คลาสสิค :: Cổ Điển :: Klasik :: Klasik :: :
+:Profile/Statistics/Block :: Block :: Блок :: Block :: Bloqueo :: บล็อค :: Chặn :: Blokir :: Sekat :: :
+:Profile/Statistics/Fives :: Fives :: Пятерки :: Cinq :: Cincos :: ห้า :: Năm :: Lima :: Berlima :: :
+:Profile/Statistics/ProMode :: King Mode :: Королевский
+режим :: Mode Roi :: Modo Profesional :: โหมดราชา :: Chế Độ Vua :: Mode Raja :: Mod Raja :: :
+:Profile/Statistics/FunMode :: Fun Mode :: Свободный
+режим :: Mode Fun :: Modo Libre :: โหมดเล่นสนุก :: Chế Độ Vui :: Mode Bebas :: Mod Seronok :: :
+:Profile/OpenConversation :: Write :: Написать :: Écrire :: Escribir :: เขียน :: Viết :: Tulis :: Tulis :: كتابة:
+:Profile/AddToFriends :: Add to Friends :: Добавить в друзья :: Ajouter aux amis :: Añadir a lista de amigos :: เพิ่มเป็นเพื่อน :: Thêm vào Bạn Bè :: Tambahkan ke Teman :: Tambah kepada Rakan :: :
+:Profile/You :: You :: Вы :: Vous :: Tú :: คุณ :: Bạn :: Kamu :: Anda :: :
+:Profile/Block :: Block :: Заблокировать :: Block :: Bloqueo :: บล็อค :: Chặn :: Blokir :: Sekat :: :
+:Profile/GamesPlayed :: Games
+Played :: Игр
+сыграно :: Parties
+jouées :: Partidas
+jugadas :: เกม
+ที่เล่น :: Trận Đấu
+Đã Chơi :: Game
+yang Sudah
+Dimainkan :: Permainan
+Dimainkan :: :
+:Profile/WinRate :: Win Rate :: Частота
+побед :: Taux de réussite :: Porcentaje de victorias :: อัตราการชนะ :: Tỷ Lệ Thắng :: Peluang
+Menang :: Kadar 
+Kemenangan :: :
+:menu.title.advanced :: Advanced :: Продвинутый :: Avancé :: Avanzado :: ขั้นสูง :: Cao Cấp :: Tingkat lanjut :: Maju :: المتقدم:
+:menu.title.beginner :: Beginner :: Новичок :: Débutant :: Principiante :: ผู้เริ่มต้น :: Sơ Cấp :: Pemula :: Pemula :: المبتدئ:
+:Lobby/GameMode/CLASSIC :: CLASSIC${text} :: КЛАССИКА${text} :: CLASSIQUE${text} :: CLÁSICO${text} :: คลาสสิค${text} :: CỔ ĐIỂN${text} :: KLASIK${text} :: KLASIK${text} :: :
+:Lobby/GameMode/BLOCK :: BLOCK${text} :: БЛОК${text} :: BLOCK${text} :: BLOQUEO${text} :: บล็อค${text} :: CHẶN${text} :: BLOKIR${text} :: SEKAT${text} :: :
+:Lobby/GameMode/FIVES :: FIVES${text} :: ПЯТЕРКИ${text} :: CINQ${text} :: CINCOS${text} :: ห้า${text} :: NĂM${text} :: LIMA${text} :: BERLIMA${text} :: :
+:Lobby/GameMode/PRO :: KING MODE${text} :: КОРОЛЕВСКИЙ
+РЕЖИМ${text} :: MODE ROI${text} :: MODO
+PROFESIONAL${text} :: โหมดราชา${text} :: CHẾ ĐỘ VUA${text} :: MODE RAJA${text} :: MOD RAJA${text} :: :
+:Back/GameMode/CLASSIC :: CLASSIC :: КЛАССИКА :: CLASSIQUE :: CLÁSICO :: คลาสสิค :: CỔ ĐIỂN :: KLASIK :: KLASIK :: :
+:Back/GameMode/BLOCK :: BLOCK :: БЛОК :: BLOCK :: BLOQUEO :: บล็อค :: CHẶN :: BLOKIR :: SEKAT :: :
+:Back/GameMode/FIVES :: FIVES :: ПЯТЕРКИ :: CINQ :: CINCOS :: ห้า :: NĂM :: LIMA :: BERLIMA :: :
+:Back/GameMode/PRO :: KING MODE :: КОРОЛЕВСКИЙ РЕЖИМ :: MODE ROI :: MODO PROFESIONAL :: โหมดราชา :: CHẾ ĐỘ VUA :: MODE RAJA :: MOD RAJA :: :
+:Lobby/GameMode/SPECIAL_OFFER :: SPECIAL
+OFFER :: СПЕЦИАЛЬНОЕ 
+ПРЕДЛОЖЕНИЕ :: OFFRE
+SPÉCIALE :: OFERTA
+ESPECIAL :: ข้อเสนอ
+พิเศษ :: ƯU ĐÃI
+ĐẶC BIỆT :: PENAWARAN
+SPESIAL :: TAWARAN
+ISTIMEWA :: :
+:Lobby/PrivateLobby :: Private Lobby :: Частное лобби :: Lobby privé :: Sala de espera privada :: ล็อบบี้ส่วนตัว :: Sảnh Riêng Tư :: Lobi Pribadi :: Lobi Persendirian :: :
+:Lobby/Skins :: Skins :: Скины :: Apparences :: Skins :: สกิน :: Ngoại Trang :: Kulit :: Skin :: :
+:Lobby/LuckySpin :: LUCKY SPIN :: КОЛЕСО УДАЧИ :: TOUR DE CHANCE :: GIRO CON SUERTE :: การหมุนที่โชคดี :: VÒNG QUAY MAY MẮN :: PUTARAN KEBERUNTUNGAN :: PUTARAN BERTUAH :: :
+:Lobby/VIP :: VIP :: VIP :: VIP :: VIP :: วีไอพี :: VIP :: VIP :: VIP :: :
+:Lobby/Tournament :: Tournament :: Турнир :: Tournoi :: Torneo :: ทัวร์นาเมนท์ :: Giải Đấu :: Turnamen :: Kejohanan :: :
+:Lobby/STORE :: STORE :: МАГАЗИН :: BOUTIQUE :: TIENDA :: ร้านค้า :: CỬA HÀNG :: TOKO :: KEDAI :: :
+:Lobby/Win :: WIN :: ПОБЕДА :: GAGNÉ :: ¡GANASTE! :: คุณชนะ :: BẠN THẮNG :: ANDA MENANG :: ANDA MENANG :: أَنتَ فُزْتَ:
+:Lobby/EntranceBalance :: Balance required :: Баланс для входа :: Solde requis :: Saldo requerido :: ยอดคงเหลือที่ต้องการ :: Số dư yêu cầu :: Saldo yang dibutuhkan :: Baki diperlukan :: الرصيد المطلوب:
+:Lobby/Ante :: ANTE :: СТАВКА :: MISE :: APOSTAR :: เงินเดิมพัน :: ĐẶT CƯỢC :: TARUHAN :: TARUHAN :: الرهان:
+:Lobby/min-level :: LVL ${text} :: УРОВЕНЬ ${text} :: NIVEAU ${text} :: NIVEL ${text} :: ระดับ ${text} :: CẤP ĐỘ ${text} :: LEVEL ${text} :: TAHAP ${text} :: المستوى ${text}:
+:Settings/Title :: Settings :: Настройки :: Paramètres :: Configuración :: การตั้งค่า :: Thiết lập :: Pengaturan :: Tetapan :: :
+:SettingsWindow/languageValue :: English :: Русский :: Français :: Español :: แบบไทย :: Tiếng Việt :: Indonesia :: Melayu :: الإنجليزية:
+:SettingsWindow/language/en :: English :: English :: English :: English :: English :: English :: English :: English :: English:
+:SettingsWindow/language/ru :: Русский :: Русский :: Русский :: Русский :: Русский :: Русский :: Русский :: Русский :: Русский:
+:SettingsWindow/language/fr :: Français :: Français :: Français :: Français :: Français :: Français :: Français :: Français :: Français:
+:SettingsWindow/language/es :: Español :: Español :: Español :: Español :: Español :: Español :: Español :: Español :: Español:
+:SettingsWindow/language/th :: แบบไทย :: แบบไทย :: แบบไทย :: แบบไทย :: แบบไทย :: แบบไทย :: แบบไทย :: แบบไทย :: แบบไทย:
+:SettingsWindow/language/vi :: Tiếng Việt :: Tiếng Việt :: Tiếng Việt :: Tiếng Việt :: Tiếng Việt :: Tiếng Việt :: Tiếng Việt :: Tiếng Việt :: Tiếng Việt:
+:SettingsWindow/language/in :: Indonesia :: Indonesia :: Indonesia :: Indonesia :: Indonesia :: Indonesia :: Indonesia :: Indonesia :: Indonesia:
+:SettingsWindow/language/ms :: Melayu :: Melayu :: Melayu :: Melayu :: Melayu :: Melayu :: Melayu :: Melayu :: Melayu:
+:Settings/SignIn :: Sign In :: Войти :: Connexion :: Iniciar sesión :: เข้าสู่ระบบ :: Đăng Nhập :: Masuk :: Daftar masuk :: :
+:Settings/Connect :: Connect :: Подключить :: Connexion :: Conectar :: เชื่อมต่อ :: Kết Nối :: Sambungkan :: Hubungkan :: :
+:Settings/Tutorial :: Tutorial :: Обучение :: Tutoriel :: Tutorial :: บทช่วยสอน :: Hướng Dẫn :: Tutorial :: Tutorial :: :
+:Settings/Language :: English :: Русский :: Français :: Español :: แบบไทย :: Tiếng Việt :: Indonesia :: Melayu :: :
+:Settings/Site :: Website :: Сайт :: Site Web :: Sitio web :: เว็บไซต์ :: Trang Web :: Situs Web :: Laman web :: :
+:Settings/ConsentSettings :: Consent Settings :: Настройки согласия :: Paramètres de consentement :: Configuración del consentimiento :: การตั้งค่าความยินยอม :: Thiết Lập Đồng Thuận :: Pengaturan Persetujuan :: Tetapan Kebenaran :: :
+:Settings/PrivacyPolicy :: Privacy Policy :: Конфиденциальность :: Politique de confidentialité :: Política de privacidad :: นโยบายความเป็นส่วนตัว :: Chính Sách Quyền Riêng Tư :: Kebijakan Privasi :: Dasar Privasi :: :
+:Settings/DeleteAccount :: Delete Account :: Удалить аккаунт :: Supprimer le compte :: Eliminar cuenta :: ลบบัญชี :: Xóa Tài Khoản :: Hapus Akun :: Padam Akaun :: :
+:Settings/Help :: Help :: Помощь :: Aide :: Ayuda :: ช่วยเหลือ :: Trợ Giúp :: Bantuan :: Bantuan :: :
+:Settings/SelectTutorial :: Select the mode to view the Tutorial  :: Выберите режим игры :: Sélectionnez le mode pour afficher le tutoriel :: Selecciona el modo para ver el tutorial :: เลือกโหมดเพื่อดูบทช่วยสอน :: Hãy chọn chế độ để xem phần Hướng Dẫn :: Pilih mode untuk melihat Tutorial :: Pilih mod untuk melihat Tutorial :: :
+:Language/Title :: Language :: Язык :: Langue :: Idioma :: ภาษา :: Ngôn ngữ :: Bahasa :: Bahasa :: :
+:Language/en :: English :: English :: English :: English :: English :: English :: English :: English :: :
+:Language/ru :: Русский :: Русский :: Русский :: Русский :: Русский :: Русский :: Русский :: Русский :: :
+:SEND REQUEST :: SEND REQUEST :: ОТПРАВИТЬ ЗАПРОС :: ENVOYER LA DEMANDE :: ENVIAR SOLICITUD :: ส่งคำขอ :: GỬI YÊU CẦU :: KIRIM PERMINTAAN :: HANTAR PERMINTAAN :: إرسال طلب:
+:FRIENDS :: FRIENDS :: ДРУЗЬЯ :: AMIS :: AMIGOS :: เพื่อน :: BẠN BÈ :: TEMAN :: RAKAN :: الأصدقاء:
+:Friends/Title :: Friends :: Друзья :: Amis :: Amigos :: เพื่อน :: Bạn bè :: Teman :: Rakan :: :
+:Friends/NewRequests :: New Requests :: Новые запросы :: Nouvelles demandes :: Nuevas solicitudes :: คำขอใหม่ :: Yêu Cầu Mới :: Permintaan Baru :: Permintaan Baharu :: :
+:Friends/FindFriends :: Find Friends :: Найти друзей :: Rechercher des amis :: Buscar amigos :: ค้นหาเพื่อน :: Tìm Bạn Bè :: Cari Teman :: Cari Rakan :: :
+:Friends/LastPlayed :: Last Played :: Последние игры :: Dernière partie :: Última partida :: เล่นครั้งล่าสุด :: Lần Chơi Gần Nhất :: Dimainkan Sebelumnya :: Kali Terakhir Bermain :: :
+:Friends/Share :: Share :: Поделиться :: Partager :: Compartir :: แชร์ :: Chia Sẻ :: Bagikan :: Kongsi :: :
+:Friends/ItsMoreFun :: IT'S MORE FUN TO PLAY
+WITH FRIENDS! :: ВЕСЕЛЕЕ
+ИГРАТЬ С ДРУЗЬЯМИ! :: C'EST PLUS AMUSANT DE JOUER
+AVEC DES AMIS ! :: ¡ES MÁS DIVERTIDO
+JUGAR CON AMIGOS! :: เล่นได้สนุกมากขึ้น
+กับเพื่อน! :: NIỀM VUI NHÂN BỘI PHẦN
+KHI CHƠI CÙNG BẠN BÈ! :: LEBIH SERU BERMAIN
+BERSAMA TEMAN! :: LEBIH SERONOK BERMAIN
+BERSAMA RAKAN-RAKAN! :: :
+:Friends/InviteToJoin :: INVITE YOUR FRIENDS TO JOIN :: ПРИГЛАСИ ДРУЗЕЙ ПРИСОЕДИНИТЬСЯ :: INVITEZ VOS AMIS À VOUS REJOINDRE :: ¡INVITA A AMIGOS :: เชิญเพื่อนของคุณเข้าร่วม :: HÃY MỜI BẠN BÈ CỦA BẠN THAM GIA :: AJAK TEMAN UNTUK BERGABUNG :: JEMPUT RAKAN ANDA UNTUK MENYERTAI :: :
+:Friends/PlayTogether :: & PLAY TOGETHER! :: И ИГРАЙ ВМЕСТЕ С НИМИ! :: POUR JOUER ENSEMBLE ! :: Y JUGAD JUNTOS! :: และเล่นด้วยกัน! :: VÀ CHƠI CÙNG NHAU! :: & BERMAIN BERSAMA! :: & MAIN BERSAMA-SAMA! :: :
+:Friends/InviteAFriend :: Invite a friend and get :: Получите за друга :: Invitez un ami pour obtenir :: Invita a un amigo y consigue :: เชิญเพื่อนและรับ :: Hãy mời một người bạn để nhận :: Ajak teman dan dapatkan :: Jemput rakan dan dapatkan :: :
+:Friends/NoPlayerFound :: The player wasn't found :: Игрок не найден :: Joueur introuvable :: No se ha encontrado al jugador :: ไม่พบผู้เล่น :: Không tìm thấy người chơi :: Pemain tidak ditemukan :: Pemain tidak ditemui :: :
+:findFriends.needMoreSymbols :: More than 2 symbols needed :: Нужно больше 2 символов :: Il faut plus de 2 symboles :: Se necesitan al menos 2 caracteres :: ต้องมีสัญลักษณ์มากกว่า 2 ตัว :: Cần nhiều hơn 2 biểu tượng :: Perlu lebih dari 2 simbol :: Lebih daripada 2 simbol diperlukan :: تحتاج إلى أكثر من رمزين:
+:FriendWindow.no-friends-placeholder :: Add your first friend in the "Find Friends" tab :: Добавьте первого друга во вкладке «Найти друзей» :: Ajoutez votre premier ami dans l'onglet « Rechercher des amis » :: Añade a tu primer amigo en la pestaña "Buscar amigos" :: เพิ่มเพื่อนคนแรกของคุณในแท็บ "ค้นหาเพื่อน" :: Hãy thêm người bạn đầu tiên của bạn trong thẻ "Tìm Bạn Bè" :: Tambahkan teman pertama di tab "Cari Teman" :: Tambahkan rakan pertama anda dalam tab "Cari Rakan". :: أضف صديقك الأول من علامة تبويب "العثور على الأصدقاء":
+:FriendWindow.no-invites-placeholder :: You don't have any new friend requests. :: У вас нет новых запросов в друзья. :: Vous n'avez aucune nouvelle demande d'ami. :: No tienes nuevas solicitudes de amistad. :: คุณไม่มีคำขอเป็นเพื่อนใหม่ :: Bạn không có bất kỳ yêu cầu kết bạn mới nào. :: Tidak ada permintaan pertemanan baru. :: Anda tiada permintaan rakan baharu. :: لا توجد لديك أي طلبات صداقة جديدة.:
+:FriendWindow.or :: or :: или :: ou :: o :: หรือ :: hoặc :: atau :: atau :: :
+:FriendWindow.login-to-facebook :: log in to Facebook :: войдите в Facebook, :: connectez-vous à Facebook :: inicia sesión en Facebook :: เข้าสู่ระบบ Facebook :: đăng nhập Facebook :: masuk ke Facebook :: log masuk ke Facebook :: :
+:FriendWindow.to-see-your-friends :: to see your friends :: чтобы увидеть своих друзей :: pour voir vos amis :: para ver tu lista de amigos :: เพื่อดูเพื่อนของคุณ :: để xem danh sách bạn bè của bạn :: untuk melihat temanmu :: untuk berjumpa rakan-rakan anda :: :
+:FriendWindow.nothing-found :: Nothing found by "${text}" :: По запросу «${text}» ничего не найдено :: Aucun résultat pour « ${text} » :: No se ha encontrado nada con "${text}". :: ไม่พบสิ่งใดจาก "${text}" :: Không tìm thấy thông tin nào theo từ khóa "${text}" :: Tidak hasil dengan pencarian "${text}" :: Tiada yang ditemui oleh "${text}" :: :
+:FriendWindow.enter-the-friend-name :: Enter your friend's name :: Введите имя друга :: Saisissez le nom de votre ami :: Escribe el nombre de tu amigo :: ป้อนชื่อเพื่อนของคุณ :: Hãy nhập tên người bạn của bạn :: Masukkan nama depan :: Masukkan nama rakan anda :: :
+:Coins :: ${text} coins :: ${text} монет :: ${text} pièces :: ${text} monedas :: ${text} เหรียญ :: ${text} xu :: Koin ${text} :: ${text} syiling :: :
+:FriendRecord.last-visit :: Last visit: ${text} :: Был в сети: ${text} :: Dernière visite : ${text} :: Última visita: ${text} :: เข้าใช้ล่าสุด: ${text} :: Lần truy cập gần nhất: ${text} :: Terakhir masuk: ${text} :: Kunjungan Terakhir: ${text} :: :
+:WheelWindow/Spin :: SPIN :: КРУТИТЬ :: TOURNER :: GIRAR :: หมุน :: QUAY :: PUTAR :: PUTAR :: :
+:WheelWindow/Lottery :: Lottery :: ЛОТЕРЕЯ :: Loterie :: Lotería :: ลอตเตอรี่ :: XỔ SỐ :: Lotre :: Loteri :: :
+:WheelWindow/WinCoins :: Win coins! :: Выигрывайте монеты! :: Gagnez des pièces ! :: ¡Consigue monedas! :: รับเหรียญ! :: Chiến thắng xu! :: Menangkan koin! :: Menang syiling! :: :
+:WheelWindow/CanBePlayerIn :: You can play in: :: Можно сыграть через: :: Vous pouvez jouer dans : :: Podrás jugar dentro de: :: คุณสามารถเล่นได้ใน: :: Bạn có thể chơi sau: :: Kamu bisa bermain dalam: :: Anda boleh bermain dalam: :: :
+:countdown/d :: ${text}d :: ${text}д :: ${text}j :: ${text} d :: ${text} วัน :: ${text}ngày :: ${text}h :: ${text}h :: {[d]}d:
+:countdown/h :: ${text}h :: ${text}ч :: ${text}h :: ${text} h :: ${text} ชม. :: ${text}giờ :: ${text}j :: ${text}j :: {[h]}h:
+:countdown/m :: ${text}m :: ${text}м :: ${text}m :: ${text} min :: ${text} นาที :: ${text}phút :: ${text}m :: ${text}m :: {[m]}m:
+:countdown/s :: ${text}s :: ${text}с :: ${text}s :: ${text} s :: ${text} วินาที :: ${text}giây :: ${text}d :: ${text}s :: {[s]}s:
+:countdown.h-m-s :: ${text}h ${text}m ${text}s :: ${text}ч ${text}м ${text}с :: ${text}h ${text}m ${text}s :: ${text} h ${text} min ${text} s :: ${text}ชม. ${text}นาที ${text}วินาที :: ${text}giờ ${text}phút ${text}giây :: ${text}j ${text}m ${text}d :: ${text}j ${text}m ${text}s :: :
+:REWARD :: REWARD :: НАГРАДА :: RÉCOMPENSE :: RECOMPENSA :: รางวัล :: PHẦN THƯỞNG :: HADIAH :: GANJARAN :: :
+:WheelRewardWindow/Claim :: CLAIM :: ЗАБРАТЬ :: RECEVOIR :: SOLICITAR :: รับ :: NHẬN :: AMBIL :: TUNTUT :: :
+:WheelRewardWindow/Claim2x :: CLAIM x2 :: ЗАБРАТЬ x2 :: RECEVOIR x2 :: SOLICITAR ×2 :: รับ x2 :: NHẬN x2 :: AMBIL x2 :: TUNTUT x2 :: :
+:ChatWindow/title :: Messages :: Сообщения :: Messages :: Mensajes :: ข้อความ :: Tin Nhắn :: Pesan :: Mesej :: :
+:ChatWindow/conversion/empty :: Start chatting now! :: Начните общаться! :: Commencez à discuter maintenant ! :: ¡Empieza a chatear ya! :: เริ่มต้นแชทเลย! :: Hãy bắt đầu trò chuyện ngay! :: Mulai obrolan sekarang! :: Mula sembang sekarang! :: ابدأ الدردشة الآن!:
+:ChatWindow/conversion/input-placeholder :: Enter your message :: Введите сообщение :: Saisissez votre message :: Escribe el mensaje :: ป้อนข้อความของคุณ :: Nhập tin nhắn của bạn :: Masukkan pesan :: Masukkan mesej anda :: اكتب رسالتك:
+:ChatWindow/list/empty :: Sorry, no messages :: Нет сообщений :: Désolé, aucun message :: Lo sentimos, no hay mensajes. :: ขออภัย ไม่มีข้อความ :: Rất tiếc, không có tin nhắn :: Maaf, tidak ada pesan :: Maaf, tiada mesej :: :
+:ChatsWindow/NoFriendFound :: The friend wasn't found :: Друг не найден :: Ami introuvable :: No se ha encontrado al amigo. :: ไม่พบเพื่อนคนนี้ :: Không tìm thấy người bạn :: Teman tidak ditemukan :: Rakan itu tidak ditemui :: :
+:AVATARS :: AVATARS :: АВАТАРЫ :: AVATARS :: AVATARES :: อวาทาร์ :: HÌNH ĐẠI DIỆN :: AVATAR :: AVATAR :: :
+:SAVE :: SAVE :: СОХРАНИТЬ :: ENREGISTRER :: GUARDAR :: บันทึก :: LƯU :: SIMPAN :: SIMPAN :: :
+:ProfileSetNameWindow.already-exists :: This name already exists. Please choose another. :: Это имя уже существует. Выберите другое. :: Ce nom existe déjà. Veuillez choisir un autre nom. :: Este nombre ya existe. Elige otro. :: มีชื่อนี้อยู่ก่อนแล้ว กรุณาเลือกชื่ออื่น :: Tên này đã tồn tại. Hãy chọn tên khác. :: Nama ini sudah digunakan. Pilih nama lain. :: Nama ini sudah wujud. Sila pilih yang lain. :: :
+:ProfileSetNameWindow.too-short :: This name is too short. Please choose a longer one. :: Это имя слишком короткое. Выберите более длинное. :: Ce nom est trop court. Veuillez choisir un nom plus long. :: Este nombre es demasiado corto. Elige otro más largo. :: ชื่อนี้สั้นเกินไป กรุณาเลือกชื่อที่ยาวกว่านี้ :: Tên này quá ngắn. Hãy chọn tên dài hơn. :: Nama ini terlalu pendek. Pilih yang lebih panjang. :: Nama ini terlalu pendek. Sila pilih yang lebih panjang. :: :
+:ProfileSetNameWindow.too-long :: This name is too long. Please choose a shorter one. :: Это имя слишком длинное. Пожалуйста, выберите более короткое. :: Ce nom est trop long. Veuillez choisir un nom plus court. :: Este nombre es demasiado largo. Elige otro más corto. :: ชื่อนี้ยาวเกินไป กรุณาเลือกชื่อที่สั้นกว่านี้ :: Tên này quá dài. Hãy chọn tên ngắn hơn. :: Nama ini terlalu panjang. Pilih yang lebih pendek. :: Nama ini terlalu panjang. Sila pilih yang lebih pendek. :: :
+:LoginWindow/facebook :: Continue with Facebook :: Продолжить с Facebook :: Continuer sur Facebook :: Continuar con Facebook :: ดำเนินการต่อด้วย Facebook :: Tiếp tục bằng Facebook :: Lanjutkan dengan Facebook :: Teruskan dengan Facebook :: :
+:LoginWindow/apple :: Sign in with Apple :: Войти с Apple :: Connexion avec Apple :: Iniciar sesión con Apple :: ลงชื่อเข้าใช้ด้วย Apple :: Đăng nhập bằng Apple :: Masuk dengan Apple :: Daftar masuk dengan Apple :: :
+:LoginWindow/google :: Sign in with Google :: Войти с Google :: Connexion avec Google :: Iniciar sesión con Google :: ลงชื่อเข้าใช้ด้วย Google :: Đăng nhập bằng Google :: Masuk dengan Google :: Daftar masuk dengan Google :: :
+:LoginWindow/guest :: Continue as a Guest :: Продолжить как гость :: Continuer en tant qu'invité(e) :: Continuar como invitado :: ดำเนินการต่อในฐานะแขก :: Tiếp tục với tư cách khách :: Lanjutkan sebagai Tamu :: Teruskan sebagai Tetamu :: :
+:We are looking for players :: We're looking for players :: Мы ищем игроков :: Nous cherchons des joueurs :: Buscamos jugadores :: เรากำลังมองหาผู้เล่น :: Chúng tôi đang tìm kiếm người chơi :: Kami mencari pemain :: Kami sedang mencari pemain :: نحن نبحث عن لاعبين:
+:TableSettingsWindow/leave :: Leave :: Выйти :: Quitter :: Salir :: ออก :: Thoát :: Keluar :: Tinggalkan :: :
+:TableSettingsWindow/leave-endless :: Leave :: Выйти :: Quitter :: Salir :: ออก :: Thoát :: Keluar :: Tinggalkan :: :
+:TableSettingsWindow/change :: Change :: Смена :: Annuler :: Cambiar :: เปลี่ยน :: Thay Đổi :: Batalkan :: Tukar :: :
+:TableSettingsWindow/stand-up :: Stand Up :: Встать :: Se lever :: Levantarse :: ยืนขึ้น :: Đứng Lên :: Berdiri :: Berdiri :: :
+:TableSettingsWindow/rules :: Rules :: Правила :: Règles :: Reglas :: กฏ :: Quy Định :: Aturan :: Peraturan :: :
+:TableSettingsWindow/vibration :: Vibration: ${text} :: Вибрация: ${text} :: Vibration : ${text} :: Vibración: ${text} :: การสั่น: ${text} :: Rung: ${text} :: Getaran: ${text} :: Getaran: ${text} :: :
+:TableSettingsWindow/music :: Music: ${text} :: Музыка: ${text} :: Musique : ${text} :: Música: ${text} :: เพลง: ${text} :: Nhạc: ${text} :: Musik: ${text} :: Muzik: ${text} :: :
+:TableSettingsWindow/sound :: Sound: ${text} :: Звук: ${text} :: Son : ${text} :: Sonido: ${text} :: เสียง: ${text} :: Âm Thanh: ${text} :: Suara: ${text} :: Bunyi: ${text} :: :
+:TableSettingsWindow/on :: ON :: ВКЛ :: ON :: ACT. :: เปิด :: BẬT :: HIDUP :: HIDUPKAN :: :
+:TableSettingsWindow/off :: OFF :: ВЫКЛ :: OFF :: DESACT. :: ปิด :: TẮT :: MATI :: MATIKAN :: :
+:DialogWindow/unfriend/yes :: Yes :: Да :: Oui :: Sí :: ใช่ :: Có :: Ya :: Ya :: نعم:
+:DialogWindow/unfriend/no :: No :: Нет :: Non :: No :: ไม่ใช่ :: Không :: Tidak :: Tidak :: لا:
+:DialogWindow/unfriend/title :: Unfriend :: Удалить из друзей :: Supprimer des amis :: Quitar de la lista de amigos :: เลิกเป็นเพื่อน :: Hủy kết bạn :: Hapus pertemanan :: Nyahrakan :: إلغاء الصداقة:
+:DialogWindow/unfriend/message :: Do you really want to unfriend
+${text}? :: Вы действительно хотите
+удалить ${text} из друзей? :: Voulez-vous vraiment supprimer
+${text} de vos amis ? :: ¿Seguro que quieres quitar
+ a ${text} de tu lista de amigos? :: คุณต้องการเลิกเป็นเพื่อนกับ 
+${text} ใช่หรือไม่? :: Bạn có thực sự muốn 
+hủy kết bạn với ${text} không? :: Yakin ingin menghapus 
+pertemanan ${text}? :: Adakah anda benar-benar
+mahu nyahrakan ${text}? :: هل ترغب حقًا في إلغاء صداقة {[name]}؟:
+:DialogWindow/delete-account/title :: Are you sure? :: Вы уверены? :: Êtes-vous sûr ? :: ¿Seguro? :: คุณแน่ใจหรือไม่? :: Bạn có chắc chắn không? :: Yakin? :: Anda pasti? :: هل أنت متأكد؟:
+:DialogWindow/delete-account/message :: Your data and game stats will be deleted
+within ${text} days! :: Ваши данные и игровая статистика
+будут удалены в течение ${text} дней! :: Vos données et statistiques de jeu seront
+supprimées dans ${text} jours ! :: Tus datos y tus estadísticas de partidas se eliminarán
+en un plazo de ${text} días. :: ข้อมูลและสถิติเกมของคุณจะถูกลบออกภายใน ${text} วัน! :: Dữ liệu và chỉ số trò chơi của bạn
+ sẽ bị xóa trong vòng ${text} ngày! :: Data dan statistik game akan
+dihapus dalam ${text} hari! :: Data dan statistik permainan anda akan 
+dipadamkan dalam masa ${text} hari! :: سيتم حذف بياناتك وإحصائيات اللعبة خلال {[days_left]} يوم!:
+:DialogWindow/delete-account/ACCEPT :: CONFIRM :: Я ПОДТВЕРЖДАЮ :: CONFIRMER :: CONFIRMAR :: ยืนยัน :: XÁC NHẬN :: KONFIRMASI :: SAHKAN :: :
+:DialogWindow/delete-account/REJECT :: CANCEL :: ОТМЕНИТЬ :: ANNULER :: CANCELAR :: ยกเลิก :: HỦY :: BATALKAN :: BATAL :: :
+:DialogWindow/delete-account/accept :: Confirm :: Я подтверждаю :: Confirmer :: Confirmar :: ยืนยัน :: Xác Nhận :: Konfirmasi :: Sahkan :: أؤكد:
+:DialogWindow/delete-account/reject :: Cancel :: Отменить :: Annuler :: Cancelar :: ยกเลิก :: Hủy :: Batalkan :: Batal :: الإلغاء:
+:DialogWindow/yes :: OK :: Да :: OK :: Aceptar :: ตกลง :: OK :: OK :: OK :: نعم:
+:DialogWindow/no :: Cancel :: Нет :: Annuler :: Cancelar :: ยกเลิก :: Hủy :: Batalkan :: Batal :: لا:
+:ShareDialog.caption :: Send this message to your friends :: Отправьте это своим друзьям :: Envoyez ce message à vos amis :: Envía este mensaje a tus amigos :: ส่งข้อความนี้ไปยังเพื่อนของคุณ :: Gửi tin nhắn này cho bạn bè của bạn :: Kirimkan pesan ini ke temanmu :: Hantar mesej ini kepada rakan-rakan-rakan anda :: أرسل هذه الرسالة إلى أصدقائك:
+:ShareDialog.copy :: COPY :: СКОПИРОВАТЬ :: COPIE :: COPIAR :: คัดลอก :: SAO CHÉP :: SALIN :: SALIN :: ينسخ:
+:ShareDialog.done :: DONE :: ГОТОВО :: TERMINÉ :: LISTO :: เสร็จสิ้น :: HOÀN THÀNH :: SELESAI :: SELESAI :: تم:
+:message-to-support.subject :: Help me (Domino account ${text}) :: Помогите мне (Аккаунт Domino: ${text}) :: Aidez-moi (compte Domino ${text}) :: Necesito ayuda (cuenta de Domino ${text}) :: ช่วยฉัน (บัญชีโดมิโน ${text}) :: Giúp tôi với (Tài khoản Domino ${text}) :: Bantu aku (Akun Domino ${text}) :: Bantu saya (akaun Domino ${text}) :: ساعدني (حساب Belote {[userId]}):
+:message-to-support.body :: Hi!
+
+
+
+
+
+My ID: ${text} :: Здравствуйте!
+
+
+
+
+
+Мой ID: ${text} :: Salut !
+ 
+ 
+ 
+ 
+ 
+ Mon ID : ${text} :: ¡Hola!
+ 
+ 
+ 
+ 
+ 
+ Mi identificador: ${text} :: สวัสดี!
+ 
+ 
+ 
+ 
+ 
+ ID ของฉัน: ${text} :: Xin chào!
+ 
+ 
+ 
+ 
+ 
+ ID của tôi: ${text} :: Hai!
+ 
+ 
+ 
+ 
+ 
+ ID-ku: ${text} :: Hai!
+ 
+ 
+ 
+ 
+ 
+ ID saya: ${text} :: أهلاً
+
+
+
+
+
+هويتي: {[userId]}:
+:tap to continue :: Tap to Continue :: Нажмите, чтобы продолжить :: Appuyer pour continuer :: Toca para continuar :: แตะเพื่อดำเนินการต่อ :: Nhấn Để Tiếp Tục :: Ketuk untuk Melanjutkan :: Ketik untuk Teruskan :: انقر للمتابعة:
+:QuitWindow/title :: Leave :: Выйти :: Quitter :: Salir :: ออก :: Thoát :: Keluar :: Tinggalkan :: :
+:QuitWindow/are-you-sure :: Are you sure? :: Вы уверены? :: Êtes-vous sûr ? :: ¿Seguro? :: คุณแน่ใจหรือไม่? :: Bạn có chắc chắn không? :: Yakin? :: Anda pasti? :: :
+:QuitWindow/you-will-lose :: You'll lose: :: Вы потеряете: :: Vous allez perdre : :: Perderás: :: คุณจะแพ้: :: Bạn sẽ mất: :: Kamu akan kehilangan: :: Anda akan kehilangan: :: :
+:QuitWindow/description :: The amount may vary
+during your opponent's turn :: Сумма может отличаться
+во время хода соперника :: La quantité peut varier
+pendant le tour de votre adversaire :: La cantidad puede variar
+durante el turno de tu adversario. :: จำนวนอาจแตกต่างกันไป
+ในแต่ละรอบของฝ่ายตรงข้าม :: Giá trị có thể khác biệt
+trong lượt đi của đối thủ :: Jumlahnya mungkin berbeda
+sesuai giliran lawan :: Jumlah mungkin berbeza
+semasa giliran lawan anda :: :
+:QuitWindow/ok :: LEAVE :: ВЫЙТИ :: QUITTER :: SALIR :: ออก :: THOÁT :: KELUAR :: TINGGALKAN :: :
+:QuitWindow/cancel :: PLAY ON! :: ИГРАТЬ ДАЛЬШЕ! :: JOUER ! :: ¡A JUGAR! :: เล่นต่อไป! :: CHƠI TIẾP! :: LANJUTKAN BERMAIN! :: MAINKAN! :: :
+:Boneyard/title :: BONEYARD: ${text} :: БАЗАР: ${text} :: BOÎTE DE DOMINOS : ${text} :: MONTÓN: ${text} :: ตลาดบาซาร์ : ${text} :: KÈO: ${text} :: BONEYARD: ${text} :: PASARAN: ${text} :: :
+:TableMessages/AFK :: OUT OF TIME :: ВРЕМЯ ВЫШЛО :: TEMPS EXPIRÉ :: FIN DEL TIEMPO :: หมดเวลา :: HẾT GIỜ :: WAKTU HABIS :: KEHABISAN MASA :: :
+:TableMessages/LowCoins :: LOW COINS :: МАЛО МОНЕТ :: PETIT NOMBRE DE PIÈCES :: POCAS MONEDAS :: เหรียญน้อย :: XU THẤP :: KOIN TINGGAL SEDIKIT :: SYILING RENDAH :: :
+:TableMessages/HighCoins :: HIGH COINS :: МНОГО МОНЕТ :: GRAND NOMBRE DE PIÈCES :: MUCHAS MONEDAS :: เหรียญมาก :: XU CAO :: KOIN BANYAK :: SYILING TINGGI :: :
+:TableMessages/RM :: SERVER RESTART :: ПЕРЕЗАГРУЗКА СЕРВЕРА :: REDÉMARRAGE DU SERVEUR :: REINICIO DEL SERVIDOR :: การรีสตาร์ทเซิร์ฟเวอร์ :: KHỞI ĐỘNG LẠI MÁY CHỦ :: SERVER DIMULAI ULANG :: MULA SEMULA PELAYAN :: :
+:TableMessages/Spinner :: SPINNER! :: СПИННЕР! :: SPINNER ! :: ¡SPINNER! :: สปินเนอร์! :: QUAY! :: PUTAR! :: PUTAR! :: :
+:TableMessages/YouStart :: YOU START :: ВЫ НАЧИНАЕТЕ :: VOUS COMMENCEZ :: TÚ COMIENZAS :: คุณเริ่ม :: BẠN BẮT ĐẦU :: ANDA MULAI :: ANDA MULA :: أَنتَ تَبْدَأ:
+:TableMessages/OpponentStarts :: OPPONENT STARTS :: НАЧИНАЕТ ПРОТИВНИК :: L'ADVERSAIRE COMMENCE :: EL ADVERSARIO COMIENZA :: ฝ่ายตรงข้ามเริ่ม :: ĐỐI THỦ BẮT ĐẦU :: LAWAN MULAI :: LAWAN MULA :: اَلْخَصْمُ يَبْدَأ:
+:TableMessages/TargetReached :: TARGET REACHED :: ЦЕЛЬ ДОСТИГНУТА :: OBJECTIF ATTEINT :: OBJETIVO ALCANZADO :: บรรลุเป้าหมาย :: ĐẠT MỤC TIÊU :: SASARAN TERCAPAI :: SASARAN TERCAPAI :: اَلْهَدَفُ تَحَقَّق:
+:TableMessages/RoundWon :: ROUND WON :: РАУНД ВЫИГРАН :: MANCHE GAGNÉE :: RONDA GANADA :: ชนะรอบ :: THẮNG VÒNG :: PUTARAN DIMENANGKAN :: PUSINGAN DIMENANGI :: اَلْجَوْلَةُ فُزْتُ بِهَا:
+:TableMessages/RoundLost :: ROUND LOST :: РАУНД ПРОИГРАН :: MANCHE PERDUE :: RONDA PERDIDA :: แพ้รอบ :: THUA VÒNG :: PUTARAN KALAH :: PUSINGAN KALAH :: اَلْجَوْلَةُ خَسِرْتُهَا:
+:TableMessages/RoundDraw :: ROUND DRAW :: НИЧЬЯ :: MATCH NUL :: EMPATE DE RONDA :: เสมอในรอบ :: HÒA VÒNG :: SERI PUTARAN :: SERI PUSINGAN :: :
+:TableMessages/BoardBlocked :: BOARD BLOCKED :: ПОЛЕ ЗАБЛОКИРОВАНО :: PLATEAU BLOQUÉ :: TABLERO BLOQUEADO :: กระดานถูกบล็อก :: BÀN CỜ BỊ CHẶN :: PAPAN DIBLOKIR :: PAPAN DISEKAT :: اَلْلَّوْحَةُ مَغْلَقَة:
+:TableMessages/GameResigned :: GAME RESIGNED :: ИГРА ОТМЕНЕНА :: JEU DÉMISSIONNÉ :: JUEGO RENUNCIA :: เกมลาออก :: TRÒ BỊ HỦY :: PERMAINAN DIBATALKAN :: PERMAINAN DIBATALKAN :: :
+:TableMessages/Factor1 :: BOARD BLOCKED :: ПОЛЕ ЗАБЛОКИРОВАНО :: PLATEAU BLOQUÉ :: TABLERO BLOQUEADO :: กระดานถูกบล็อก :: BÀN CỜ BỊ CHẶN :: PAPAN DIBLOKIR :: PAPAN DISEKAT :: اَلْلَّوْحَةُ مَغْلَقَة:
+:TableMessages/Factor2 :: Double :: Хорошо х2 :: Double :: Doble :: ดับเบิล :: Đôi :: Dobel :: Berganda :: مُزْدَوِج:
+:TableMessages/Factor3 :: Triple :: Отлично x3 :: Triple :: Triple :: ทริปเปิล :: Bộ Ba :: Tiga :: Tiga :: ثُلاثِي:
+:TableMessages/Factor4 :: Quartet :: Великолепно x4 :: Quadruple :: Cuádruple :: สี่ตัวเดียวกัน :: Bộ Bốn :: Empat Sejenis :: Empat Sejenis :: رُبَاعِي:
+:TableMessages/Factor5 :: Quintet :: Превосходно x5 :: Quintuple :: Quíntuple :: ห้าตัวเดียวกัน :: Bộ Năm :: Lima Sejenis :: Lima Sejenis :: خَمَاسِي:
+:LevelUpWindow/title :: LEVEL UP! :: НОВЫЙ УРОВЕНЬ! :: NIVEAU SUPÉRIEUR ! :: ¡AUMENTO DE NIVEL! :: เลื่อนระดับขึ้น! :: TĂNG CẤP! :: NAIK LEVEL! :: NAIK TAHAP! :: :
+:LevelUpWindow/reward :: Reward :: Награда :: Récompense :: Recompensa :: รางวัล :: Phần thưởng :: Hadiah :: Ganjaran :: :
+:LevelUpWindow/continue :: CONTINUE :: ПРОДОЛЖИТЬ :: CONTINUER :: CONTINUAR :: ดำเนินการต่อ :: TIẾP TỤC :: LANJUTKAN :: TERUSKAN :: :
+:TutorialWindow/Classic :: Classic :: Классика :: Classique :: Clásico :: คลาสสิค :: Cổ Điển :: Klasik :: Klasik :: :
+:TutorialWindow/Block :: Block :: Блок :: Block :: Bloqueo :: บล็อค :: Chặn :: Blokir :: Sekat :: :
+:TutorialWindow/Fives :: Fives :: Пятерки :: Cinq :: Cincos :: ห้า :: Năm :: Lima :: Berlima :: :
+:TutorialWindow/KingMode :: King Mode :: Королевский
+режим :: Mode Roi :: Modo Profesional :: โหมดราชา :: Chế Độ Vua :: Mode Raja :: Mod Raja :: :
+:TutorialWindow/how-to-play :: HOW TO PLAY :: КАК ИГРАТЬ :: COMMENT JOUER :: CÓMO JUGAR :: วิธีการเล่น :: CÁCH CHƠI :: CARA BERMAIN :: CARA BERMAIN :: :
+:TutorialWindow/move :: Move :: Ход :: Coup :: Jugada :: การเล่น :: Lượt :: Giliran :: Giliran :: :
+:TutorialWindow/round-end :: Round End :: Конец раунда :: Fin de la manche :: Fin de la ronda :: สิ้นสุดรอบ :: Kết Thúc Vòng :: Akhir Putaran :: Akhir Pusingan :: :
+:TutorialWindow/points :: Points :: Подсчет очков :: POINTS :: Puntos :: คะแนน :: Số Điểm :: Skor :: Poin :: :
+:TutorialWindow/game-end :: Game End :: Конец игры :: Fin du jeu :: Fin del juego :: สิ้นสุดเกม :: Kết Thúc Trò Chơi :: Akhir Permainan :: Akhir Permainan :: :
+:TutorialWindow/tiles-placed :: ALL TILES ARE
+PLACED! :: ВСЕ КОСТЯШКИ
+СЫГРАНЫ! :: ALL TILES ARE
+PLACED! :: ALL TILES ARE
+PLACED! :: ALL TILES ARE
+PLACED! :: ALL TILES ARE
+PLACED! :: ALL TILES ARE
+PLACED! :: ALL TILES ARE
+PLACED! :: :
+:TutorialWindow/total-points :: Total points: 16 :: Всего очков: 16 :: Total points: 16 :: Total points: 16 :: Total points: 16 :: Total points: 16 :: Total points: 16 :: Total points: 16 :: :
+:TutorialWindow/five-points :: 2 + 3 = 5 Points :: 2 + 3 = 5 Очков :: 2 + 3 = 5 Points :: 2 + 3 = 5 Points :: 2 + 3 = 5 Points :: 2 + 3 = 5 Points :: 2 + 3 = 5 Points :: 2 + 3 = 5 Points :: :
+:error.message.disconnected :: Disconnected.
+Request: :: Отключено.
+Запрос: :: Déconnecté.
+Demande : :: Sin conexión.
+Solicitud: :: ถูกตัดการเชื่อมต่อ
+คำขอ: :: Đã ngắt kết nối.
+Yêu cầu: :: Terputus.
+Permintaan: :: Terputus sambungan.
+Permintaan: :: غير متصل.
+  الطلب::
+:error.message.low_balance :: Not enough coins.
+Buy more. :: Не хватает монет.
+Купить еще. :: Pas assez de pièces.
+Achetez-en plus. :: No tienes suficientes monedas.
+Compra más. :: เหรียญไม่เพียงพอ
+ซื้อเพิ่ม :: Không đủ xu.
+Hãy mua thêm. :: Koin tidak cukup.
+Beli lagi. :: Tidak Cukup Syiling.
+Beli lebih banyak. :: لا توجد عملات كافية.
+ اشترِ المزيد.:
+:error.message.not-implemented :: Coming soon... :: Еще не реализовано... :: Bientôt disponible... :: Próximamente… :: เร็วๆ นี้... :: Sắp ra mắt... :: Segera hadir... :: Akan datang... :: تأتي قريبًا:
+:error.message.timeout :: Timeout :: Тайм-аут :: Délai expiré :: Se ha agotado el tiempo de espera :: หมดเวลา :: Hết thời gian chờ :: Waktu habis :: Tamat masa :: انتهى الوقت.:
+:error.message.previous-account-found :: Previous account found.
+Do you want to switch to this one? :: Найден предыдущий аккаунт.
+Вы хотите переключиться на него? :: Compte précédent trouvé.
+Voulez-vous passer à ce compte ? :: Se ha encontrado una cuenta anterior.
+¿Quieres cambiar a esta? :: พบบัญชีก่อนหน้า 
+คุณต้องการสลับไปใช้บัญชีนี้หรือไม่? :: Tìm thấy tài khoản đã tồn tại.
+Bạn có muốn chuyển sang tài khoản đó không? :: Akun lama ditemukan.
+Mau beralih ke akun ini? :: Akaun terdahulu ditemui.
+Adakah anda mahu bertukar kepada yang ini? :: تم العثور على الحساب السابق.
+هل تريد التبديل إلى هذا الحساب؟:
+:error.title.disconnected :: Network Error :: Ошибка сети :: Erreur de réseau :: Error de red :: ข้อผิดพลาดของเครือข่าย :: Lỗi Mạng :: Kesalahan Jaringan :: Ralat Rangkaian :: خطأ في الشبكة:
+:error.title.low_balance :: Balance :: Баланс :: Solde :: Saldo :: ยอดคงเหลือ :: Số Dư :: Saldo :: Baki :: الرصيد:
+:error.title.low_tournament_balance :: Balance :: Баланс :: Solde :: Saldo :: ยอดคงเหลือ :: Số Dư :: Saldo :: Baki :: الرصيد:
+:error.title.not-implemented :: Not Ready :: Не готово :: Pas prêt :: Sin preparar :: ยังไม่พร้อม :: Không Sẵn Sàng :: Belum Siap :: Belum Sedia :: غير جاهز:
+:error.title.timeout :: Network Error :: Ошибка сети :: Erreur de réseau :: Error de red :: ข้อผิดพลาดของเครือข่าย :: Lỗi Mạng :: Kesalahan Jaringan :: Ralat Rangkaian :: خطأ في الشبكة:
+:Spectator/HandText :: You'll start the game from the next round :: Вы начнете игру со следующего раунда :: Vous commencerez la partie à partir du prochain tour :: Empezarás a jugar a partir de la siguiente ronda. :: คุณจะเป็นผู้เริ่มเกมในรอบถัดไป :: Bạn sẽ bắt đầu trận đấu từ vòng chơi tiếp theo :: Kamu akan memulai game dari putaran berikutnya :: Anda akan memulakan permainan dari pusingan seterusnya :: :
+:CHAT :: CHAT :: ЧАТ :: CHAT :: CHAT :: แชท :: TRÒ CHUYỆN :: OBROLAN :: SEMBANG :: محادثة:
+:text-chat.button.cu :: See you soon! :: Увидимся! :: À bientôt ! :: ¡Hasta pronto! :: เจอกันใหม่เร็วๆ นี้! :: Hẹn sớm gặp lại! :: Sampai nanti! :: Jumpa anda sebentar
+lagi! :: أراك قريبًا!:
+:text-chat.button.hi :: Hello! :: Привет :: Bonjour ! :: ¡Hola! :: สวัสดี! :: Xin chào! :: Halo! :: Helo! :: مرحبًا:
+:text-chat.button.nice :: Well done! :: Отлично! :: Bien joué ! :: ¡Buen trabajo! :: ทำได้ดี! :: Hay lắm! :: Bagus! :: Syabas! :: رائع:
+:text-chat.button.sry :: Sorry... :: Извини... :: Désolé... :: Lo siento… :: ขอโทษ... :: Xin lỗi... :: Maaf... :: Maaf... :: آسف...:
+:text-chat.button.thx :: Thank you! :: Спасибо! :: Merci ! :: ¡Gracias! :: ขอบคุณ! :: Cảm ơn! :: Terima kasih! :: Terima kasih! :: شكرًا:
+:text-chat.button.u2 :: You too! :: И тебе! :: Vous aussi ! :: ¡Igualmente! :: คุณเช่นกัน! :: Bạn cũng vậy! :: Sama-sama! :: Anda juga! :: وأنت أيضًا!:
+:text-chat.message.cu :: See you soon! :: До скорой встречи! :: À bientôt ! :: ¡Hasta pronto! :: เจอกันใหม่เร็วๆ นี้! :: Hẹn sớm gặp lại! :: Sampai nanti! :: Jumpa anda sebentar
+lagi! :: أراك قريبًا!:
+:text-chat.message.hi :: Hello! :: Привет! :: Bonjour ! :: ¡Hola! :: สวัสดี! :: Xin chào! :: Halo! :: Helo! :: مرحبًا!:
+:text-chat.message.nice :: Well done! :: Отличная работа! :: Bien joué ! :: ¡Buen trabajo! :: ทำได้ดี! :: Hay lắm! :: Bagus! :: Syabas! :: أحسنت!:
+:text-chat.message.sry :: Sorry... :: Извини... :: Désolé... :: Lo siento… :: ขอโทษ... :: Xin lỗi... :: Maaf... :: Maaf... :: آسف...:
+:text-chat.message.thx :: Thank you! :: Спасибо! :: Merci ! :: ¡Gracias! :: ขอบคุณ! :: Cảm ơn! :: Terima kasih! :: Terima kasih! :: شكرًا لك!:
+:text-chat.message.u2 :: You too! :: И тебе! :: Vous aussi ! :: ¡Igualmente! :: คุณเช่นกัน! :: Bạn cũng vậy! :: Sama-sama! :: Anda juga! :: وأنت أيضًا!:
+:EndGameWindow/summary :: Summary :: Итоги :: Résumé :: Resumen :: สรุป :: Tổng Kết :: Ringkasan :: Ringkasan :: :
+:EndGameWindow/new-game :: NEW GAME :: НОВАЯ ИГРА :: NOUVELLE PARTIE :: NUEVA PARTIDA :: เกมใหม่ :: PHẦN CHƠI MỚI :: PERMAINAN BARU :: PERMAINAN BAHARU :: :
+:PlayerAvatarStatus/winner :: WINNER :: ПОБЕДИТЕЛЬ :: GAGNANT :: GANADOR :: ผู้ชนะ :: NGƯỜI THẮNG :: PEMENANG :: PEMENANG :: الفائز:
+:Maintenance.in-progress-message :: Technical maintenance is underway. :: Проводятся технические работы. :: Des travaux techniques sont en cours. :: Se están realizando labores de mantenimiento técnico. :: ขณะนี้อยู่ระหว่างการบำรุงรักษาด้านเทคนิค :: Bảo trì kỹ thuật đang diễn ra. :: Perbaikan teknis sedang berlangsung. :: Penyelenggaraan teknikal sedang dijalankan. :: جارٍ تنفيذ الأعمال الفنية:
+:Maintenance.in-progress-submessage :: Thanks for waiting! :: Спасибо за ожидание! :: Merci pour votre patience :: ¡Gracias por esperar! :: ขอบคุณที่รอ! :: Cảm ơn bạn đã chờ! :: Terima kasih telah menunggu! :: Terima kasih kerana menunggu! :: شكرًا للانتظار:
+:Maintenance.attention :: Attention! :: Внимание! :: Attention ! :: ¡Atención! :: โปรดทราบ! :: Chú ý! :: Perhatian! :: Perhatian! :: :
+:Maintenance.starts-in :: There will be a server update in ${text} :: Через ${text} будет обновление сервера :: Il y aura une mise à jour du serveur dans ${text} :: Se va a ejecutar una actualización del servidor dentro de ${text} minutos. :: จะมีการอัปเดตเซิร์ฟเวอร์ใน${text} นาที :: Sẽ có cập nhật máy chủ sau ${text} phút nữa :: Akan ada pembaruan server dalam ${text} menit :: Akan berlaku kemas kini pelayan dalam ${text} minit :: :
+:DeleteAccountAlert/title :: Your account is locked! :: Ваш аккаунт заблокирован :: Votre compte est verrouillé ! :: Tu cuenta está bloqueada. :: บัญชีของคุณถูกล็อค! :: Tài khoản của bạn bị khóa! :: Akunmu terkunci! :: Akaun anda dikunci! :: تم قفل حسابك:
+:DeleteAccountAlert/message :: Your data is being deleted. This may take up to ${text} days. Want to change your decision?
+Tap the button below. :: Ваши данные удаляются. Это может занять до ${text} дн. Хотите пересмотреть свое решение?
+Нажмите кнопку ниже. :: Vos données sont en cours de suppression. Cela peut prendre jusqu'à ${text} jours. Vous voulez revenir sur votre décision ?
+Tapez sur le bouton ci-dessous. :: Tus datos se están borrando. Esta operación puede tardar hasta ${text}días. ¿Has cambiado de idea?
+Toca el botón inferior. :: ข้อมูลของคุณกำลังถูกลบ ซึ่งอาจใช้เวลาถึง ${text} วัน ต้องการเปลี่ยนการตัดสินใจหรือไม่? 
+แตะที่ปุ่มด้านล่าง :: Dữ liệu của bạn đang bị xóa. Quá trình này có thể kéo dài tối đa ${text} ngày. Bạn có muốn thay đổi quyết định của mình không?
+Hãy nhấn vào nút bên dưới. :: Datamu sedang dihapus. Proses akan memakan waktu hingga ${text} hari. Mau berubah keputusan?
+Ketuk tombol di bawah. :: Data anda sedang dipadamkan. Ini mungkin mengambil masa sehingga ${text} hari. Mahu ubah keputusan anda?
+Ketik butang di bawah. :: يتم الآن حذف بياناتك، وقد يستغرق الأمر ما يصل إلى {[days_left]} يوم. هل تريد إعادة النظر في قرارك؟
+انقر فوق الزر أدناه.:
+:DeleteAccountAlert/revoke :: Change :: Отменить :: Annuler :: Cambiar :: เปลี่ยน :: Thay Đổi :: Batalkan :: Tukar :: الإلغاء

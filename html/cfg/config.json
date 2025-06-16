@@ -1,0 +1,21 @@
+{
+  "facebookAppId": "1294253131708056",
+  "appleClientId": "com.domino-king",
+  "googleClientId": "454046846650-ekuors18romocqai3ouvtqi7falnf9e3.apps.googleusercontent.com",
+  "googleAuthorizedRedirectURI": "https://domino-king.com/googleSignInFallback.html",
+  "d1BackendURLs": [
+    "https://domino-1-worker-1.k8s.azurgames.dev",
+    "https://domino-1-worker-2.k8s.azurgames.dev"
+  ],
+  "d2BackendURLs": [
+    "https://domino-2-worker-1.k8s.azurgames.dev",
+    "https://domino-2-worker-2.k8s.azurgames.dev"
+  ],
+  "telegramBackendURLs": [
+    "https://domino-tg1-worker-1.k8s.azurgames.dev"
+  ],
+  "prodBackendURLs": [
+    "https://domino-worker-1.k8s.azurgames.com",
+    "https://domino-worker-2.k8s.azurgames.com"
+  ]
+}

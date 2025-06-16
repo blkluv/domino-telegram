@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Commissioner";
+    src: url("./assets/fonts/Commissioner-500.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Commissioner";
+    src: url("./assets/fonts/Commissioner-600.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Commissioner";
+    src: url("./assets/fonts/Commissioner-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Commissioner";
+    src: url("./assets/fonts/Commissioner-800.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Commissioner";
+    src: url("./assets/fonts/Commissioner-900-Italic.woff2") format("woff2");
+    font-weight: 900;
+    font-style: italic;
+}

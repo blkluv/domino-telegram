@@ -1,0 +1,72 @@
+{
+  "languageTextConfig": {
+    "fontFamily": "Commissioner",
+    "fill": "0xffffff",
+    "fontWeight": "800",
+    "align": "center",
+    "fontStyle": "normal"
+  },
+  "resources": {
+    "atlasesNames": [
+      "table",
+      "main",
+      "popups"
+    ],
+    "configs": [
+      "cfg/config.json",
+      "cfg/translations.csv",
+      "cfg/gifts_config.json",
+      "cfg/smiles.json"
+    ],
+    "images": [],
+    "sounds": [
+      "assets/sounds/buttonClick.mp3",
+      "assets/sounds/menuOpen.mp3",
+      "assets/sounds/menuClose.mp3",
+      "assets/sounds/message.mp3",
+      "assets/sounds/coinReachBalance.mp3",
+      "assets/sounds/fallingCoins.mp3",
+      "assets/sounds/openCashbox.mp3",
+      "assets/sounds/passMan.mp3",
+      "assets/sounds/passWoman.mp3",
+      "assets/sounds/lose.mp3",
+      "assets/sounds/win.mp3",
+      "assets/sounds/opponentFounded.mp3",
+      "assets/sounds/finalDomino.mp3",
+      "assets/sounds/distribution.mp3",
+      "assets/sounds/wheelSpin.mp3",
+      "assets/sounds/takeDomino/take_01.mp3",
+      "assets/sounds/takeDomino/take_02.mp3",
+      "assets/sounds/takeDomino/take_03.mp3",
+      "assets/sounds/putDomino/put_01.mp3",
+      "assets/sounds/putDomino/put_02.mp3",
+      "assets/sounds/putDomino/put_03.mp3",
+      "assets/sounds/putDomino/put_04.mp3",
+      "assets/sounds/gifts/bomb.mp3",
+      "assets/sounds/gifts/bat.mp3",
+      "assets/sounds/gifts/egg.mp3",
+      "assets/sounds/gifts/kiss.mp3",
+      "assets/sounds/gifts/rose.mp3",
+      "assets/sounds/gifts/slap.mp3",
+      "assets/sounds/gifts/tomato.mp3",
+      "assets/sounds/gifts/crazy.mp3",
+      "assets/sounds/points/p1.mp3",
+      "assets/sounds/points/p2.mp3",
+      "assets/sounds/points/p3.mp3",
+      "assets/sounds/points/p4.mp3",
+      "assets/sounds/points/p5.mp3"
+    ],
+    "spines": [
+      "assets/spine/all_cats.json",
+      "assets/spine/wheel/wheel_spin.json",
+      "assets/spine/special_offer_girl/special_offer_girl.json",
+      "assets/spine/lobby/Lobby.json",
+      "assets/spine/loupe/Loupe.json",
+      "assets/spine/level_up/level_up.json",
+      "assets/spine/gifts/gifts.json"
+    ],
+    "models": [
+      "assets/models/Domino.gltf"
+    ]
+  }
+}

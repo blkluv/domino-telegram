@@ -1,0 +1,58 @@
+[
+  {
+    "id": "misc/fistWhite",
+    "iconTextureName": "table/gifts/arm",
+    "effectAnimation": "arm_effect",
+    "idleAnimation": "arm_post",
+    "sound": "slap"
+  },
+  {
+    "id": "face/explosion",
+    "iconTextureName": "table/gifts/egg",
+    "effectAnimation": "egg_effect",
+    "idleAnimation": "egg_post",
+    "sound": "egg"
+  },
+  {
+    "id": "misc/rose",
+    "iconTextureName": "table/gifts/rose",
+    "effectAnimation": "rose_effect",
+    "idleAnimation": "rose_post",
+    "sound": "rose"
+  },
+  {
+    "id": "face/clown",
+    "iconTextureName": "table/gifts/smile",
+    "effectAnimation": "smile_effect",
+    "idleAnimation": "smile_post",
+    "sound": "crazy"
+  },
+  {
+    "id": "misc/drum",
+    "iconTextureName": "table/gifts/bomb",
+    "effectAnimation": "bomb_effect",
+    "idleAnimation": "bomb_post",
+    "sound": "bomb"
+  },
+  {
+    "id": "face/shit",
+    "iconTextureName": "table/gifts/tomato",
+    "effectAnimation": "tomato_effect",
+    "idleAnimation": "tomato_post",
+    "sound": "tomato"
+  },
+  {
+    "id": "misc/hamer",
+    "iconTextureName": "table/gifts/bat",
+    "effectAnimation": "bita_effect",
+    "idleAnimation": "bita_post",
+    "sound": "bat"
+  },
+  {
+    "id": "face/blow",
+    "iconTextureName": "table/gifts/lips",
+    "effectAnimation": "lips_effect",
+    "idleAnimation": "lips_post",
+    "sound": "kiss"
+  }
+]

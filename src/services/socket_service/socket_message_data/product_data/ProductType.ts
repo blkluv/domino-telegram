@@ -1,0 +1,1 @@
+export type ProductType = "CONSUMABLE" | "ADS" | "PAID_SUBSCRIPTION" | "NON_CONSUMABLE"

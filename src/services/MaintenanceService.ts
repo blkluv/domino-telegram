@@ -1,0 +1,1 @@
+export {MaintenanceService} from "@azur-games/pixi-vip-framework";

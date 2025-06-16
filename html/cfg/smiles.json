@@ -1,0 +1,62 @@
+[
+  {
+    "smilePackIndex": "5",
+    "tabIndex": "5",
+    "previewTextureKey": "smiles/5/smile_pack_5_05",
+    "inventoryKey": "smile_pack_5",
+    "shopId": "preferans.smile_pack_5",
+    "smileType": "ANIMATION",
+    "smiles": [
+      {
+        "animation": "Cool",
+        "chatMessage": ":emoji-cat:Cool",
+        "smileType": "ANIMATION"
+      },
+      {
+        "animation": "Crazy",
+        "chatMessage": ":emoji-cat:Crazy",
+        "smileType": "ANIMATION"
+      },
+      {
+        "animation": "Crying",
+        "chatMessage": ":emoji-cat:Crying",
+        "smileType": "ANIMATION"
+      },
+      {
+        "animation": "Facepalm",
+        "chatMessage": ":emoji-cat:Facepalm",
+        "smileType": "ANIMATION"
+      },
+      {
+        "animation": "Handsome",
+        "chatMessage": ":emoji-cat:Handsome",
+        "smileType": "ANIMATION"
+      },
+      {
+        "animation": "Middle_finger",
+        "chatMessage": ":emoji-cat:Middle_finger",
+        "smileType": "ANIMATION"
+      },
+      {
+        "animation": "Party",
+        "chatMessage": ":emoji-cat:Party",
+        "smileType": "ANIMATION"
+      },
+      {
+        "animation": "Shocked",
+        "chatMessage": ":emoji-cat:Shocked",
+        "smileType": "ANIMATION"
+      },
+      {
+        "animation": "Sleep",
+        "chatMessage": ":emoji-cat:Sleep",
+        "smileType": "ANIMATION"
+      },
+      {
+        "animation": "Thinking",
+        "chatMessage": ":emoji-cat:Thinking",
+        "smileType": "ANIMATION"
+      }
+    ]
+  }
+]

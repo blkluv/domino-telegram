@@ -1,0 +1,1 @@
+export type DeclensionType = {one: string, two?: string, five?: string, many?: string}

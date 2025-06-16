@@ -1,0 +1,1 @@
+export {BaseScreen} from "@azur-games/pixi-vip-framework";
