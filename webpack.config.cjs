@@ -1,4 +1,3 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const path = require('path');
 
@@ -34,9 +33,6 @@ module.exports = {
                 {from: 'src/assets/', to: 'assets'},
                 {from: "html", to: ""}
             ]
-        }),
-        /*new HtmlWebpackPlugin({
-            title: 'Development'
-        })*/
+        })
     ]
 };

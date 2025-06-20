@@ -2,22 +2,18 @@
     color-scheme: only light;
 }
 
-html, body {
-    position: relative;
+body {
     padding: 0;
     margin: 0;
     width: 100%;
     min-width: 100%;
     height: 100vh; /* Fallback for browsers that do not support Custom Properties */
     height: calc(var(--vh, 1vh) * 100);
-    overflow: hidden;
-}
-
-body {
     background-image: url('images/lagoon.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #app {
@@ -39,8 +35,13 @@ body {
 }
 
 .logo {
-    max-height: 30vh;
-    max-width: 90%;
+    background-image: url("./images/logo.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 344 / 666;
+    height: 30vh;
+    width: 90%;
+    background-size: contain;
     top: 3%;
     overflow: hidden;
     position: absolute;
