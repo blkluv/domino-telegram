@@ -8,23 +8,18 @@ import {DisplayObjectFactory} from "@azur-games/pixi-vip-framework";
 import {GameEvents} from "../../../GameEvents";
 import {Pivot} from "@azur-games/pixi-vip-framework";
 import {Timeout} from "@azur-games/pixi-vip-framework";
+import {StaticData} from "../../../StaticData";
 import {BaseScreen} from "./BaseScreen";
-import {GameModeCards} from "./lobby_screen/GameModeCards";
-import {LobbyFooter} from "./lobby_screen/LobbyFooter";
+import {GameButton} from "./lobby_screen/GameButton";
 import {PlayerBlock} from "./lobby_screen/PlayerBlock";
-import {SocialBlock} from "./lobby_screen/SocialBlock";
 import {ScreenType} from "./ScreenType";
-import {StoreButton} from "./StoreButton";
 
 
 export class LobbyScreen extends BaseScreen {
     private background: Sprite;
-    private vignette: NineSlicePlane;
-    private gameCards: GameModeCards;
-    private footer: LobbyFooter;
-    private socialBlock: SocialBlock;
+    private vignette: NineSlicePlane
     private playerBlock: PlayerBlock;
-    private storeButton: StoreButton;
+    private gameButtons: GameButton[] = []
     private filter: ColorMatrixFilter;
     private filterTween1: TweenMax;
     private filterTween2: TweenMax;
@@ -37,6 +32,7 @@ export class LobbyScreen extends BaseScreen {
         this.createChildren();
         this.addChildren();
         this.initChildren();
+        this.createGameButtons()
         this.onGameScaleChanged();
         this.appearChildren();
 
@@ -81,7 +77,6 @@ export class LobbyScreen extends BaseScreen {
     }
 
     async appearChildren(): Promise<void> {
-        this.enableGameCards(false);
         let speed: number = 1.4;
         let delay: number = .3;
         this.registerAppear(this.vignette, {
@@ -90,20 +85,6 @@ export class LobbyScreen extends BaseScreen {
             startValue: 0,
             duration: 1 / speed,
             delay: delay / speed
-        });
-        this.registerAppear(this.socialBlock, {
-            appearType: AppearType.MOVE_FROM_RIGHT,
-            ease: Back.easeOut,
-            startValue: this.socialBlock.x + 500,
-            duration: .5 / speed,
-            delay: delay + 1 / speed
-        });
-        this.registerAppear(this.socialBlock, {
-            appearType: AppearType.FADE_IN,
-            ease: Sine.easeOut,
-            startValue: 0,
-            duration: .5 / speed,
-            delay: delay + 1 / speed
         });
         this.registerAppear(this.playerBlock, {
             appearType: AppearType.MOVE_FROM_LEFT,
@@ -119,97 +100,32 @@ export class LobbyScreen extends BaseScreen {
             duration: .5 / speed,
             delay: delay + 1 / speed
         });
-        this.registerAppear(this.storeButton, {
-            appearType: AppearType.MOVE_FROM_TOP,
-            ease: Sine.easeOut,
-            startValue: this.storeButton.y - 300,
-            duration: .4 / speed,
-            delay: delay + 1.2 / speed
-        });
-        this.gameCards.getItems().forEach((item: Sprite, index: number) => {
-            this.registerAppear(item, {
-                appearType: AppearType.MOVE_FROM_RIGHT,
-                ease: Back.easeOut,
-                startValue: item.x + 400,
-                duration: .5 / speed,
-                delay: delay + (.4 + index * .1) / speed
-            });
-            this.registerAppear(item, {
-                appearType: AppearType.FADE_IN,
-                startValue: 0,
-                duration: .5 / speed,
-                delay: delay + (.4 + index * .1) / speed
-            });
-        });
-        this.registerAppear(this.gameCards.getGirl(), {
-            appearType: AppearType.MOVE_FROM_LEFT,
-            startValue: -600,
-            duration: .5 / speed,
-            delay: delay / speed,
-        });
-
-        this.footer.getItems().forEach((item: Sprite, index: number) => {
-            this.registerAppear(item, {
-                appearType: AppearType.MOVE_FROM_BOTTOM,
-                ease: Back.easeOut,
-                startValue: item.y + 400,
-                duration: .5 / speed,
-                delay: delay + (1 + index * .1) / speed
-            });
-            this.registerAppear(item, {
-                appearType: AppearType.FADE_IN,
-                startValue: 0,
-                duration: .5 / speed,
-                delay: delay + (1 + index * .1) / speed
-            });
-        });
-        this.registerAppear(this.footer.background, {
-            appearType: AppearType.FADE_IN,
-            startValue: 0,
-            duration: .5 / speed,
-            delay: delay + 1.6 / speed
-        });
-        this.footer.getBushes().forEach(bush => {
-            this.registerAppear(bush, {
-                appearType: AppearType.MOVE_FROM_BOTTOM,
-                startValue: bush.y + 300,
-                duration: .5 / speed,
-                delay: delay / speed
-            });
-        });
         await this.appear();
-        this.enableGameCards(true);
     }
 
-    enableGameCards(value: boolean): void {
-        this.gameCards.getItems().forEach(card => card.enabled = value);
+    createGameButtons(){
+        this.gameButtons = StaticData.gamesConfig.map((config, i) => {
+            let button: GameButton = new GameButton(config);
+            this.addChild(button);
+            return button;
+        })
+
     }
 
     createChildren() {
         this.background = DisplayObjectFactory.createSprite("lobby/bg");
         this.vignette = DisplayObjectFactory.createNineSlicePlane("lobby/vinetka_bg");
-        this.gameCards = new GameModeCards();
-        this.footer = new LobbyFooter();
-        this.socialBlock = new SocialBlock();
         this.playerBlock = new PlayerBlock();
-        this.storeButton = new StoreButton();
-
     }
 
     addChildren() {
         this.addChild(this.background);
         this.addChild(this.vignette);
-        this.addChild(this.gameCards);
-        this.addChild(this.footer);
-        this.addChild(this.socialBlock);
         this.addChild(this.playerBlock);
-        this.addChild(this.storeButton);
     }
 
     initChildren() {
-        this.gameCards.scale.set(.8);
         Pivot.center(this.background);
-        this.gameCards.y = -30;
     }
 
     onGameScaleChanged() {
@@ -218,14 +134,11 @@ export class LobbyScreen extends BaseScreen {
         this.resizeBackckground();
         Pivot.center(this.vignette);
 
-        this.gameCards.x = -this.gameCards.containerWidth / 2;
-        this.gameCards.getGirl().y = DominoGame.instance.screenH / 2 - (this.gameCards.getGirl().height * this.gameCards.getGirl().scale.x / 7);
-        this.socialBlock.x = DominoGame.instance.screenW / 2 - 40;
-        this.socialBlock.y = -DominoGame.instance.screenH / 2 + 38;
         this.playerBlock.x = -DominoGame.instance.screenW / 2;
         this.playerBlock.y = -DominoGame.instance.screenH / 2;
-        this.storeButton.y = -DominoGame.instance.screenH / 2 + this.storeButton.backgroundHeight / 2;
-        this.footer.onGameScaleChanged();
+        this.gameButtons.forEach((button, i) => {
+            button.y = i * 120 - (DominoGame.instance.screenH * .3);
+        })
     }
 
     destroy(): void {
@@ -243,27 +156,15 @@ export class LobbyScreen extends BaseScreen {
 
         this.removeChild(this.background);
         this.removeChild(this.vignette);
-        this.removeChild(this.gameCards);
-        this.removeChild(this.footer);
-        this.removeChild(this.socialBlock);
         this.removeChild(this.playerBlock);
-        this.removeChild(this.storeButton);
 
         this.background.destroy({children: true});
         this.vignette.destroy();
-        this.gameCards.destroy();
-        this.footer.destroy();
-        this.socialBlock.destroy();
         this.playerBlock.destroy();
-        this.storeButton.destroy();
 
         this.background = undefined;
         this.vignette = undefined;
-        this.gameCards = undefined;
-        this.footer = undefined;
-        this.socialBlock = undefined;
         this.playerBlock = undefined;
-        this.storeButton = undefined;
 
         super.destroy();
     }
