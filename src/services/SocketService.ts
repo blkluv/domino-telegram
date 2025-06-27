@@ -22,7 +22,6 @@ import {FriendData} from "./socket_service/socket_message_data/FriendData";
 import {FullProfileData} from "./socket_service/socket_message_data/profile_data/FullProfileData";
 import {ProfileData} from "./socket_service/socket_message_data/ProfileData";
 import {GameMode} from "./socket_service/socket_message_data/socket_game_config/GameMode";
-import {GameType} from "./socket_service/socket_message_data/socket_game_config/GameType";
 import {ChatEventMessage} from "./socket_service/socket_message_data/user_events_message/ChatEventMessage";
 import {UserEventMessage} from "./socket_service/socket_message_data/UserEventMessage";
 import {UserMessagesStatusById} from "./socket_service/socket_message_data/UserMessagesStatusById";
@@ -32,7 +31,7 @@ import {SocketMessageData} from "./socket_service/SocketMessageData";
 import {SocketMessageType} from "./socket_service/SocketMessageType";
 import {UserOnlineStatus} from "./socket_service/UserOnlineStatus";
 import {UserEventsService} from "./UserEventsService";
-import {XsollaInitResponse} from "@azur-games/pixi-vip-framework";
+import {XsollaInitResponse, GameType} from "@azur-games/pixi-vip-framework";
 
 
 export class SocketService extends CoreSocketService {

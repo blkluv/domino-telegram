@@ -1,5 +1,5 @@
 import {GameMode} from "../services/socket_service/socket_message_data/socket_game_config/GameMode";
-import {GameType} from "../services/socket_service/socket_message_data/socket_game_config/GameType";
+import {GameType} from "@azur-games/pixi-vip-framework";
 import {IRoundUser} from "./IRoundUser";
 import {SocketGameRequestState} from "./SocketGameRequestState";
 

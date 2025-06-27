@@ -1,6 +1,6 @@
 export class Settings {
-    static RESOURCES_WIDTH: number = 1920;
-    static RESOURCES_HEIGHT: number = 1080;
+    static RESOURCES_WIDTH: number = 1080;
+    static RESOURCES_HEIGHT: number = 1920;
     static RESOURCES_RATIO: number = Settings.RESOURCES_WIDTH / Settings.RESOURCES_HEIGHT;
     static COMMISSIONER: string = "Commissioner";
     static LEFT_WHILE_DISCONNECTED: string = "LEFT_WHILE_DISCONNECTED";

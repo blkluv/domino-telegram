@@ -2,3 +2,5 @@
 /dist/
 /.idea/
 .qodo
+.DS_Store
+

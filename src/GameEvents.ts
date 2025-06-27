@@ -1,4 +1,4 @@
-import {FrameworkEvents} from "@azur-games/pixi-vip-framework";
+import {FrameworkEvents, GameType} from "@azur-games/pixi-vip-framework";
 
 
 export class GameEvents extends FrameworkEvents {
@@ -66,4 +66,18 @@ export class GameEvents extends FrameworkEvents {
     static SPECTATING: string = "SPECTATING";
     static OPEN_INPUT_POPUP: string = "OPEN_INPUT_POPUP";
     static CLOSE_INPUT_POPUP: string = "CLOSE_INPUT_POPUP";
+    static FILTER_LOBBY_ROOMS: string = "FILTER_LOBBY_ROOMS";
+    static LOBBY_ROOMS_TAB_CLICKED: string = "LOBBY_ROOMS_TAB_CLICKED";
 }
+
+export type FilterLobbyRoomsPayload = {
+    isSitNow: boolean;
+    gameType: GameType
+}
+
+export class FilterLobbyRooms extends CustomEvent<FilterLobbyRoomsPayload> {
+    constructor(detail: FilterLobbyRoomsPayload) {
+        super(GameEvents.FILTER_LOBBY_ROOMS, {detail});
+    }
+}
+

@@ -1,5 +1,5 @@
 import {GameMode} from "./socket_game_config/GameMode";
-import {GameType} from "./socket_game_config/GameType";
+import {GameType} from "@azur-games/pixi-vip-framework";
 import {SessionType} from "./socket_game_config/SessionType";
 
 
