@@ -19,6 +19,7 @@ import {BlurFilter} from "@pixi/filter-blur";
 
 
 export class DominoGame implements IGame {
+    isPortraitMode: boolean = true;
     app: PIXI.Application;
     appDiv: HTMLElement;
     private progressDiv: HTMLElement;
@@ -50,45 +51,66 @@ export class DominoGame implements IGame {
         this.init();
     }
 
+    changeOrientation(isPortrait: boolean): void {
+        this.isPortraitMode = isPortrait;
+        console.log("changeOrientation", isPortrait);
+        this.onWindowResize();
+    };
+
     onWindowResize(): void {
-        let ratio = Settings.RESOURCES_RATIO;
-        let w: number;
-        let h: number;
-        let currentRatio: number = window.innerWidth / window.innerHeight;
-        let moreThanRatio: boolean = currentRatio > ratio;
-        if (moreThanRatio) {
-            w = window.innerHeight * ratio;
-            h = window.innerHeight;
+        // Handle mobile viewport height issues
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+        let effectiveWidth: number, effectiveHeight: number;
+        console.log("LOG: portrait --> ", this.isPortraitMode);
+
+        if (this.isPortraitMode) {
+            effectiveWidth = window.innerWidth;
+            effectiveHeight = window.innerHeight;
         } else {
-            w = window.innerWidth;
-            h = window.innerWidth / ratio;
+            effectiveWidth = window.innerHeight;
+            effectiveWidth = window.innerHeight;
+            effectiveHeight = window.innerWidth;
         }
+
+        let ratio: number = Settings.RESOURCES_WIDTH / Settings.RESOURCES_HEIGHT;
+
+        console.log("effectiveWidth, effectiveHeight -->", effectiveWidth, effectiveHeight);
+
+        let currentRatio: number = effectiveWidth / effectiveHeight;
+        let moreThanRatio: boolean = currentRatio > ratio;
+        let width: number = moreThanRatio ? effectiveHeight * ratio : effectiveWidth;
 
         Camera.main.aspect = 1 / Settings3D.cosCorner * currentRatio;
 
+        // Use actual browser dimensions for renderer
         DominoGame.instance.width = window.innerWidth;
         DominoGame.instance.height = window.innerHeight;
-        DominoGame.instance.scale = w / Settings.RESOURCES_WIDTH;
+        DominoGame.instance.scale = width / Settings.RESOURCES_WIDTH;
 
-        DominoGame.instance.screenW = window.innerWidth / DominoGame.instance.scale;
-        DominoGame.instance.screenH = window.innerHeight / DominoGame.instance.scale;
+        DominoGame.instance.screenW = effectiveWidth / DominoGame.instance.scale;
+        DominoGame.instance.screenH = effectiveHeight / DominoGame.instance.scale;
 
         // No Background flickering on resize
         DominoGame.instance.app.renderer.resize(DominoGame.instance.width, DominoGame.instance.height);
-        console.log("DominoGame.instance.scale", DominoGame.instance.scale);
 
-        if (DominoGame.instance.root) {
-            DominoGame.instance.root.x = DominoGame.instance.width / 2;//Math.floor((DominoGame.instance.width - w) * .5);
-            DominoGame.instance.root.y = DominoGame.instance.height / 2;//Math.floor((DominoGame.instance.height - h) * .5);
-            DominoGame.instance.root.scale.set(DominoGame.instance.scale);
-            DominoGame.instance.root.resize();
-            DominoGame.instance.scale3D = moreThanRatio ? 1 : DominoGame.instance.scale / (DominoGame.instance.height / Settings.RESOURCES_HEIGHT);
-            console.log("DominoGame.instance.scale3D", DominoGame.instance.scale3D);
-            dispatchEvent(new MessageEvent(GameEvents.GAME_SCALE_CHANGED, {data: null}));
+        if (!DominoGame.instance.root) {
+            return;
         }
-        console.log("Settings3D.tgCorner", Settings3D.tgCorner);
-        console.log("Settings3D.sinCorner", Settings3D.sinCorner);
-        console.log("Settings3D.cosCorner", Settings3D.cosCorner);
+
+        DominoGame.instance.root.x = window.innerWidth / 2;
+        DominoGame.instance.root.y = window.innerHeight / 2;
+        // DominoGame.instance.root
+        DominoGame.instance.root.rotation = this.isPortraitMode ? 0 : (Math.PI / 2);
+        DominoGame.instance.root.scale.set(DominoGame.instance.scale);
+        DominoGame.instance.root.resize();
+
+        DominoGame.instance.scale3D = moreThanRatio ? 1 : DominoGame.instance.scale / (effectiveHeight / Settings.RESOURCES_HEIGHT);
+
+        console.log("DominoGame.scale, DominoGame.scale3D --> ", DominoGame.instance.scale, DominoGame.instance.scale3D);
+
+        dispatchEvent(new MessageEvent(GameEvents.GAME_SCALE_CHANGED, {data: null}));
     }
 
     private appCreate(): void {
@@ -104,7 +126,7 @@ export class DominoGame implements IGame {
         ResizePlugin.init({resizeTo: null});
         Camera.main.orthographic = true;
         Camera.main.orthographicSize = 15;
-        window.addEventListener("resize", DominoGame.instance.onWindowResize);
+        window.addEventListener("resize", () => DominoGame.instance.onWindowResize());
         DominoGame.instance.onWindowResize();
     }
 
@@ -165,7 +187,9 @@ export class DominoGame implements IGame {
         wrapper.removeChild(preloader);
         DominoGame.instance.appDiv = document.getElementById("app");
         DominoGame.instance.appDiv.appendChild(DominoGame.instance.app.view);
-        window.addEventListener("resize", DominoGame.instance.onWindowResize);
+        window.addEventListener("resize", () => DominoGame.instance.onWindowResize());
+        const welcomeLogo: HTMLElement = document.getElementById("logo_container");
+        welcomeLogo.style.display = "none";
     }
 
     set progressDivBackgroundPosition(value: number) {
