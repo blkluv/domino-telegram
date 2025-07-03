@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@azur-games/pixi-domino-core": "0.0.2",
-    "@azur-games/pixi-vip-framework": "^0.0.22",
+    "@azur-games/pixi-vip-framework": "0.0.24",
     "@pixi/loaders": "^6.5.10",
     "@pixi/sound": "^4.0.0",
     "@telegram-apps/sdk": "^2.11.3",

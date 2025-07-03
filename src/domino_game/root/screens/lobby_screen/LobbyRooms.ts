@@ -129,14 +129,25 @@ export class LobbyRooms extends DraggableObject {
     }
 
     destroy(): void {
+        this.magnetizeTween?.kill();
+        this.listHeightTween?.kill();
+
         this.removeChild(this.header);
         this.removeChild(this.roomsList);
+        this.removeChild(this.bgGradient);
+        this.removeChild(this.background);
 
         this.header.destroy();
         this.roomsList.destroy();
+        this.bgGradient.destroy();
+        this.background.destroy();
 
         this.header = null;
         this.roomsList = null;
+        this.bgGradient = null;
+        this.background = null;
+        this.magnetizeTween = null;
+        this.listHeightTween = null;
 
         super.destroy();
     }
