@@ -64,7 +64,7 @@ export class Screens extends AppearanceContainer {
         this.addChild(this.currentScreen);
         callback && callback();
 
-        DominoGame.instance.changeOrientation(newScreenType != ScreenType.TABLE);
+        DominoGame.instance.switchToPortraitMode(newScreenType != ScreenType.TABLE);
 
         if ([ScreenType.LOBBY].includes(newScreenType)) {
             SoundsPlayer.stopMusic();
