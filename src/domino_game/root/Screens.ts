@@ -1,4 +1,4 @@
-import {AppearanceContainer, LoginService, Timeout, WindowFocusController} from "@azur-games/pixi-vip-framework";
+import {AppearanceContainer, Device, LoginService, Timeout, WindowFocusController} from "@azur-games/pixi-vip-framework";
 import {DominoGame} from "../../app";
 import {SitPlace} from "../../dynamic_data/SitPlace";
 import {Reason, SocketGameRequest} from "../../dynamic_data/SocketGameRequest";
@@ -64,7 +64,7 @@ export class Screens extends AppearanceContainer {
         this.addChild(this.currentScreen);
         callback && callback();
 
-        DominoGame.instance.switchToPortraitMode(newScreenType != ScreenType.TABLE);
+        Device.info.device.type == "smartphone" && DominoGame.instance.switchToPortraitMode(newScreenType != ScreenType.TABLE);
 
         if ([ScreenType.LOBBY].includes(newScreenType)) {
             SoundsPlayer.stopMusic();

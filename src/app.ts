@@ -13,7 +13,7 @@ import {ServerService} from "./services/ServerService";
 import {SocketService} from "./services/SocketService";
 import {Settings} from "./Settings";
 import {Settings3D} from "./utils/Settings3D";
-import {Framework, IGame, FrameworkConfig} from "@azur-games/pixi-vip-framework";
+import {Framework, IGame, FrameworkConfig, Device} from "@azur-games/pixi-vip-framework";
 import {BlurFilter} from "@pixi/filter-blur";
 
 
@@ -57,10 +57,10 @@ export class DominoGame implements IGame {
 
     onWindowResize(): void {
         // Detect actual orientation
-        console.log("BUILD: 18");
+        console.log("BUILD: 68");
         // Get actual window dimensions
-        let windowWidth: number = window.innerWidth;
-        let windowHeight: number = window.innerHeight;
+        let windowWidth: number = Device.info.device.type == "smartphone" ? screen.width : window.innerWidth;
+        let windowHeight: number = Device.info.device.type == "smartphone" ? screen.width : window.innerHeight;
 
         // Apply CSS transform for rotation
         let transform = `rotate(${DominoGame.instance.isPortraitMode ? "0" : "90"}deg)`;
