@@ -20,6 +20,7 @@ import {SettingsPopup} from "./popups_container/SettingsPopup";
 import {StorePopup} from "./popups_container/StorePopup";
 import {TutorialPopup} from "./popups_container/TutorialPopup";
 import {WheelPopup} from "./popups_container/WheelPopup";
+import {DepositPopup} from "./popups_container/DepositPopup";
 
 
 export class PopupsContainer extends Sprite {
@@ -37,6 +38,7 @@ export class PopupsContainer extends Sprite {
     private infoPopup: InfoPopup;
     private inputPopup: InputPopup;
     private maintenancePopup: MaintenancePopup;
+    private depositPopup: DepositPopup;
 
     constructor() {
         super();
@@ -68,6 +70,8 @@ export class PopupsContainer extends Sprite {
         addEventListener(GameEvents.CLOSE_INPUT_POPUP, this.onCloseInputPopup.bind(this));
         addEventListener(GameEvents.OPEN_MAINTENANCE_POPUP, this.onOpenMaintenancePopup.bind(this));
         addEventListener(GameEvents.CLOSE_MAINTENANCE_POPUP, this.onCloseMaintenancePopup.bind(this));
+        addEventListener(GameEvents.OPEN_DEPOSIT_POPUP, this.onOpenDepositPopup.bind(this));
+        addEventListener(GameEvents.CLOSE_DEPOSIT_POPUP, this.onCloseDepositPopup.bind(this));
 
     }
 
@@ -346,6 +350,24 @@ export class PopupsContainer extends Sprite {
         this.removeChild(this.profilePopup);
         this.profilePopup.destroy();
         this.profilePopup = null;
+    }
+
+    onOpenDepositPopup(): void {
+        if (this.depositPopup) {
+            return;
+        }
+        this.depositPopup = new DepositPopup();
+        this.addChild(this.depositPopup);
+    }
+
+    async onCloseDepositPopup(): Promise<void> {
+        if (!this.depositPopup) {
+            return;
+        }
+        await this.depositPopup.show(false);
+        this.removeChild(this.depositPopup);
+        this.depositPopup.destroy();
+        this.depositPopup = null;
     }
 
 }

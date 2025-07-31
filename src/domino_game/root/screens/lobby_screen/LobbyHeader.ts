@@ -1,12 +1,12 @@
 import {Point, Sprite} from "pixi.js";
 import {LanguageText} from "@azur-games/pixi-vip-framework";
 import {Button} from "../../../../../../pixi-vip-framework";
-import {DominoGame} from "../../../../app";
 import {DynamicData} from "../../../../DynamicData";
 import {GameEvents} from "../../../../GameEvents";
 import {AvatarService} from "../../../../services/AvatarService";
 import {LobbyHeaderAvatar} from "./lobby_header/LobbyHeaderAvatar";
 import {LobbyHeaderBalance} from "./lobby_header/LobbyHeaderBalance";
+import {DominoGame} from "../../../../app";
 
 
 export class LobbyHeader extends Sprite {
@@ -96,7 +96,7 @@ export class LobbyHeader extends Sprite {
     }
 
     onDepositClick(): void {
-        console.log("deposit clicked");
+        dispatchEvent(new MessageEvent(GameEvents.OPEN_DEPOSIT_POPUP));
     }
 
     onWithdrawClick(): void {

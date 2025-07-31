@@ -654,6 +654,129 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">../sources_belot/deposit/currency_item_bg.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <true/>
+                <key>scale9Borders</key>
+                <rect>150,50,54,58</rect>
+                <key>scale9Paddings</key>
+                <rect>64,40,127,79</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../sources_belot/deposit/currency_item_divider.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>1,1,1,1</rect>
+                <key>scale9Paddings</key>
+                <rect>1,1,1,1</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../sources_belot/deposit/deposit_stages_frame.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <true/>
+                <key>scale9Borders</key>
+                <rect>20,20,30,40</rect>
+                <key>scale9Paddings</key>
+                <rect>20,20,40,40</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../sources_belot/deposit/deposit_stages_step_icon.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>11,11,22,22</rect>
+                <key>scale9Paddings</key>
+                <rect>11,11,22,22</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../sources_belot/deposit/green_bg.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <true/>
+                <key>scale9Borders</key>
+                <rect>22,23,2,1</rect>
+                <key>scale9Paddings</key>
+                <rect>12,12,23,23</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../sources_belot/deposit/red_bg.png</key>
+            <key type="filename">../sources_belot/deposit/yellow_bg.png</key>
+            <key type="filename">../sources_belot/lobby/icon_setting.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>12,12,23,23</rect>
+                <key>scale9Paddings</key>
+                <rect>12,12,23,23</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../sources_belot/deposit/right_arrow_icon.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>4,7,8,15</rect>
+                <key>scale9Paddings</key>
+                <rect>4,7,8,15</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../sources_belot/deposit/ton_symbol.png</key>
+            <key type="filename">../sources_belot/deposit/usdt_trc20_symbol.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>23,23,45,45</rect>
+                <key>scale9Paddings</key>
+                <rect>23,23,45,45</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">../sources_belot/lobby/arrow.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -726,21 +849,6 @@
                 <rect>24,14,8,27</rect>
                 <key>scale9Paddings</key>
                 <rect>14,14,28,27</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/bg.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>683,512,1366,1024</rect>
-                <key>scale9Paddings</key>
-                <rect>683,512,1366,1024</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1298,21 +1406,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../sources_belot/lobby/icon_setting.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>12,12,23,23</rect>
-                <key>scale9Paddings</key>
-                <rect>12,12,23,23</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">../sources_belot/lobby/icon_store.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -1792,6 +1885,7 @@
                     <filename>../sources_belot/avatars</filename>
                     <filename>../sources_belot/common</filename>
                     <filename>../sources_belot/maintenance</filename>
+                    <filename>../sources_belot/deposit</filename>
                 </array>
             </struct>
         </map>
