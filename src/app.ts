@@ -13,7 +13,7 @@ import {ServerService} from "./services/ServerService";
 import {SocketService} from "./services/SocketService";
 import {Settings} from "./Settings";
 import {Settings3D} from "./utils/Settings3D";
-import {Framework, IGame, FrameworkConfig, Device} from "@azur-games/pixi-vip-framework";
+import {Framework, IGame, FrameworkConfig, Device, LocalStorageService, FrameworkLocalStorageNames} from "@azur-games/pixi-vip-framework";
 import {BlurFilter} from "@pixi/filter-blur";
 
 
@@ -56,36 +56,26 @@ export class DominoGame implements IGame {
     }
 
     onWindowResize(): void {
-        // Detect actual orientation
-        console.log("BUILD: 68");
-        // Get actual window dimensions
         let windowWidth: number = Device.info.device.type == "smartphone" ? screen.width : window.innerWidth;
-        let windowHeight: number = Device.info.device.type == "smartphone" ? screen.width : window.innerHeight;
+        let windowHeight: number = Device.info.device.type == "smartphone" ? screen.height : window.innerHeight;
 
-        // Apply CSS transform for rotation
         let transform = `rotate(${DominoGame.instance.isPortraitMode ? "0" : "90"}deg)`;
         document.documentElement.style.setProperty('transform', transform);
 
-        // Game resources are designed for portrait (1080x1920)
-        let resourcesWidth: number = Settings.RESOURCES_WIDTH;  // 1080
-        let resourcesHeight: number = Settings.RESOURCES_HEIGHT; // 1920
-        let ratio: number = Settings.RESOURCES_RATIO; // 1.777
+        let ratio: number = Settings.RESOURCES_RATIO;
 
-        // Calculate available space for game content
         let availableWidth: number;
         let availableHeight: number;
 
         if (DominoGame.instance.isPortraitMode) {
-            // Portrait mode: use window dimensions directly
             availableWidth = windowWidth;
             availableHeight = windowHeight;
         } else {
-            // Landscape mode: after CSS rotation, the available space is swapped
-            availableWidth = windowHeight;  // rotated viewport height becomes game width
-            availableHeight = windowWidth;  // rotated viewport width becomes game height
+
+            availableWidth = windowHeight;
+            availableHeight = windowWidth;
         }
 
-        // Handle mobile viewport height issues
         document.documentElement.style.setProperty('--vh', `${availableHeight * 0.01}px`);
         document.documentElement.style.setProperty('--vw', `${availableWidth * 0.01}px`);
         let w: number;
