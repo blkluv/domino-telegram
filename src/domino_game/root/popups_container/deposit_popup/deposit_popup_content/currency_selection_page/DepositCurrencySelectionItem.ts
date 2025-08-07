@@ -1,25 +1,21 @@
 import {Sprite, NineSlicePlane} from "pixi.js";
-import {DisplayObjectFactory} from "@azur-games/pixi-vip-framework";
-import {LanguageText} from "@azur-games/pixi-vip-framework";
-import {Button} from "@azur-games/pixi-vip-framework";
-import {Pivot} from "@azur-games/pixi-vip-framework";
-import {CurrencyItemDetail} from "./CurrencyItemDetail";
+import {DisplayObjectFactory, TonRates, LanguageText, Button, Pivot, NumberUtils} from "@azur-games/pixi-vip-framework";
+import {DepositCurrencyChosen} from "../../../../../../game_events/DepositCurrencyChosen";
+import {CurrencyItemDetail} from "./selection_item/CurrencyItemDetail";
+import {CurrencyNameValues} from "./CurrencyName";
 
 
-export class CurrencyItem extends Button {
+export class DepositCurrencySelectionItem extends Button {
     private background: NineSlicePlane;
     private divider: NineSlicePlane;
     private currencyIcon: Sprite;
-    private currencyName: LanguageText;
+    private currencyNameText: LanguageText;
     private minAmount: CurrencyItemDetail;
-    private networkFee: CurrencyItemDetail;
     private arrowIcon: Sprite;
 
     constructor(
-        private nameValue: string,
-        private iconTexture: string,
-        private minAmountValue: string,
-        private networkFeeValue: string
+        private currencyName: CurrencyNameValues,
+        private rates: TonRates,
     ) {
         super({});
         this.createChildren();
@@ -27,13 +23,17 @@ export class CurrencyItem extends Button {
         this.initChildren();
     }
 
+    processClick() {
+        dispatchEvent(new DepositCurrencyChosen({name: this.currencyName}));
+    }
+
     createChildren() {
         this.background = DisplayObjectFactory.createNineSlicePlane("deposit/currency_item_bg", 150, 50, 50, 50);
         this.divider = DisplayObjectFactory.createNineSlicePlane("deposit/currency_item_divider", 1, 1, 1, 1);
-        this.currencyIcon = DisplayObjectFactory.createSprite(`deposit/${this.iconTexture}`);
-        this.currencyName = new LanguageText({key: this.nameValue, fontSize: 40});
-        this.minAmount = new CurrencyItemDetail("Min deposit:", this.minAmountValue);
-        this.networkFee = new CurrencyItemDetail("Network fee:", this.networkFeeValue);
+        console.log("LOG:this.currencyName ", this.currencyName);
+        this.currencyIcon = DisplayObjectFactory.createSprite(`deposit/${this.currencyName}_symbol`);
+        this.currencyNameText = new LanguageText({key: this.currencyName.toUpperCase(), fontSize: 40});
+        this.minAmount = new CurrencyItemDetail("Min deposit: ", "$" + NumberUtils.shortPriceFormat(this.rates.minTransactionUsd));
         this.arrowIcon = DisplayObjectFactory.createSprite("deposit/right_arrow_icon");
     }
 
@@ -41,9 +41,8 @@ export class CurrencyItem extends Button {
         this.addChild(this.background);
         this.addChild(this.divider);
         this.addChild(this.currencyIcon);
-        this.addChild(this.currencyName);
+        this.addChild(this.currencyNameText);
         this.addChild(this.minAmount);
-        this.addChild(this.networkFee);
         this.addChild(this.arrowIcon);
     }
 
@@ -57,45 +56,43 @@ export class CurrencyItem extends Button {
         Pivot.center(this.background);
         Pivot.center(this.divider);
         Pivot.center(this.currencyIcon);
-        Pivot.center(this.currencyName, false);
+        Pivot.center(this.currencyNameText, false);
         Pivot.center(this.arrowIcon);
 
         this.background.y = 3;
-
         this.currencyIcon.x = -415;
-        this.currencyName.x = -320;
-        this.currencyName.y = -2;
-        this.divider.x = 60;
-        this.minAmount.x = 160;
-        this.networkFee.x = 310;
+        this.currencyNameText.x = -320;
+        this.currencyNameText.y = -2;
+        this.divider.x = 160;
+        this.minAmount.x = 310;
         this.arrowIcon.x = 420;
 
     }
 
     destroy() {
+
         this.removeChild(this.background);
         this.removeChild(this.divider);
         this.removeChild(this.currencyIcon);
-        this.removeChild(this.currencyName);
+        this.removeChild(this.currencyNameText);
         this.removeChild(this.minAmount);
-        this.removeChild(this.networkFee);
         this.removeChild(this.arrowIcon);
 
         this.background.destroy();
         this.divider.destroy();
         this.currencyIcon.destroy();
-        this.currencyName.destroy();
+        this.currencyNameText.destroy();
         this.minAmount.destroy();
-        this.networkFee.destroy();
         this.arrowIcon.destroy();
 
         this.background = null;
         this.divider = null;
         this.currencyIcon = null;
-        this.currencyName = null;
+        this.currencyNameText = null;
         this.minAmount = null;
-        this.networkFee = null;
         this.arrowIcon = null;
+        this.currencyName = null;
+        this.rates = null;
 
         super.destroy();
     }

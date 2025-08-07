@@ -72,6 +72,7 @@ export class PopupsContainer extends Sprite {
         addEventListener(GameEvents.CLOSE_MAINTENANCE_POPUP, this.onCloseMaintenancePopup.bind(this));
         addEventListener(GameEvents.OPEN_DEPOSIT_POPUP, this.onOpenDepositPopup.bind(this));
         addEventListener(GameEvents.CLOSE_DEPOSIT_POPUP, this.onCloseDepositPopup.bind(this));
+        // setTimeout(() => this.onOpenDepositPopup(), 3000);
 
     }
 

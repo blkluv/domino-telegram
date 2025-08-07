@@ -1,6 +1,7 @@
 import {Point} from "pixi.js";
 import {ScrollContainer} from "@azur-games/pixi-vip-framework";
-import {FilterLobbyRooms, FilterLobbyRoomsPayload, GameEvents} from "../../../../../GameEvents";
+import {FilterLobbyRooms, FilterLobbyRoomsPayload} from "../../../../../game_events/FilterLobbyRooms";
+import {GameEvents} from "../../../../../GameEvents";
 import {SocketGameConfig} from "../../../../../services/socket_service/socket_message_data/SocketGameConfig";
 import {StaticData} from "../../../../../StaticData";
 import {RoomsListItem} from "./rooms_list/RoomsListItem";

@@ -1,6 +1,5 @@
+import {DisplayObjectFactory, Pivot} from "@azur-games/pixi-vip-framework";
 import {Sprite, NineSlicePlane} from "pixi.js";
-import {DisplayObjectFactory} from "@azur-games/pixi-vip-framework";
-import {Pivot} from "@azur-games/pixi-vip-framework";
 import {DepositStepDescription} from "./DepositStepDescription";
 
 

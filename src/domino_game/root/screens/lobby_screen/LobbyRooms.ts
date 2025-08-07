@@ -1,6 +1,6 @@
 import {Power1, TweenMax} from "gsap";
-import {InteractionEvent, NineSlicePlane, Point, Sprite} from "pixi.js";
-import {Clamp, DisplayObjectFactory, DraggableObject, FrameworkEvents, IPoint, Pivot} from "../../../../../../pixi-vip-framework";
+import {InteractionEvent, NineSlicePlane} from "pixi.js";
+import {Clamp, DisplayObjectFactory, DraggableObject, FrameworkEvents, IPoint, Pivot} from "@azur-games/pixi-vip-framework";
 import {DominoGame} from "../../../../app";
 import {RoomsHeader} from "./lobby_rooms/RoomsHeader";
 import {RoomsList} from "./lobby_rooms/RoomsList";

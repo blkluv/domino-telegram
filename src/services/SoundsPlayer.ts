@@ -32,6 +32,7 @@ export class SoundsPlayer extends CoreSoundPlayer {
     }
 
     static playLobbyMusic() {
+        return;
         let currentlyPlaying: boolean = SoundsPlayer.currentlyPlayingMusic == "menuMusic";
         let audioPlaying: boolean = SoundsPlayer.audio?.playing();
         if (currentlyPlaying && audioPlaying) {

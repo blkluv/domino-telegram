@@ -1,6 +1,7 @@
 import {Button, GameType} from "@azur-games/pixi-vip-framework";
 import {Container, Point} from "pixi.js";
-import {FilterLobbyRooms, GameEvents} from "../../../../../GameEvents";
+import {FilterLobbyRooms} from "../../../../../game_events/FilterLobbyRooms";
+import {GameEvents} from "../../../../../GameEvents";
 import {RoomsTabs} from "./rooms_header/RoomsTabs";
 
 
