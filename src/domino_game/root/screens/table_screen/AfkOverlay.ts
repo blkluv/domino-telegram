@@ -1,15 +1,11 @@
 import gsap, {Sine} from "gsap";
 import {NineSlicePlane, Rectangle, Sprite} from "pixi.js";
 import {DominoGame} from "../../../../app";
-import {LanguageText} from "@azur-games/pixi-vip-framework";
-import {ScreenCovering} from "@azur-games/pixi-vip-framework";
-import {ShineParticles} from "../../../../common/ShineParticles";
+import {LanguageText, ShineParticles, ScreenCovering, DisplayObjectFactory, Pivot} from "@azur-games/pixi-vip-framework";
 import {RoundUserData, RoundUserDataEvent} from "../../../../data/active_data/game_state/players_data/RoundUserData";
 import {GameStateData, GameStateEvents} from "../../../../data/active_data/GameStateData";
 import {GamePhase} from "../../../../dynamic_data/GamePhase";
-import {DisplayObjectFactory} from "@azur-games/pixi-vip-framework";
 import {SocketService} from "../../../../services/SocketService";
-import {Pivot} from "@azur-games/pixi-vip-framework";
 
 
 export class AfkOverlay extends ScreenCovering {

@@ -1,9 +1,5 @@
+import {Button, DisplayObjectFactory, LanguageText, Pivot, TextCaseFormat} from "@azur-games/pixi-vip-framework";
 import {NineSlicePlane, Point, Sprite} from "pixi.js";
-import {Button} from "@azur-games/pixi-vip-framework";
-import {LanguageText} from "@azur-games/pixi-vip-framework";
-import {DisplayObjectFactory} from "@azur-games/pixi-vip-framework";
-import {TextCaseFormat} from "@azur-games/pixi-vip-framework";
-import {Pivot} from "@azur-games/pixi-vip-framework";
 
 
 export class BigPopupBody extends Sprite {

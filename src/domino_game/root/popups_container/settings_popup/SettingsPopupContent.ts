@@ -4,8 +4,9 @@ import {PopupBody} from "../PopupBody";
 import {SettingsGeneralPage} from "./settings_popup_content/SettingsGeneralPage";
 import {SettingsLanguagePage} from "./settings_popup_content/SettingsLanguagePage";
 import {SettingsPage} from "./settings_popup_content/SettingsPage";
-import {SettingsTutorialPage} from "./settings_popup_content/SettingsTutorialPage";
 
+
+;
 
 export class SettingsPopupContent extends Sprite {
     private body: PopupBody;
@@ -45,9 +46,6 @@ export class SettingsPopupContent extends Sprite {
                 break;
             case SettingsPage.LANGUAGE:
                 this.currentPage = new SettingsLanguagePage();
-                break;
-            case SettingsPage.TUTORIAL:
-                this.currentPage = new SettingsTutorialPage();
                 break;
         }
 

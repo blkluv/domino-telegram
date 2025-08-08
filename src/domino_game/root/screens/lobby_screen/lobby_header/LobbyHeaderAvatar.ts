@@ -1,5 +1,7 @@
 import {Graphics, Point, Sprite} from "pixi.js";
 import {Button, DisplayObjectFactory, GraphicsFactory, Pivot} from "../../../../../../../pixi-vip-framework";
+import {DynamicData} from "../../../../../DynamicData";
+import {GameEvents} from "../../../../../GameEvents";
 
 
 export class LobbyHeaderAvatar extends Button {

@@ -1,11 +1,7 @@
 import gsap from "gsap";
 import {Linear, TweenMax} from "gsap/gsap-core";
 import {Rectangle, Sprite} from "pixi.js";
-import {AppearanceContainer} from "@azur-games/pixi-vip-framework";
-import {ShineParticles} from "../../../../../../common/ShineParticles";
-import {DisplayObjectFactory} from "@azur-games/pixi-vip-framework";
-import {LanguageService} from "@azur-games/pixi-vip-framework";
-import {Pivot} from "@azur-games/pixi-vip-framework";
+import {AppearanceContainer, ShineParticles, DisplayObjectFactory, LanguageService, Pivot} from "@azur-games/pixi-vip-framework";
 import {WinnerLabel} from "./winner_glow/WinnerLabel";
 
 

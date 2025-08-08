@@ -1,12 +1,8 @@
 import gsap from "gsap";
 import {Sine, TweenMax} from "gsap/gsap-core";
 import {Rectangle, Sprite, Text} from "pixi.js";
-import {AppearanceContainer} from "@azur-games/pixi-vip-framework";
-import {ShineParticles} from "../../../../../../../common/ShineParticles";
-import {DisplayObjectFactory} from "@azur-games/pixi-vip-framework";
+import {AppearanceContainer, ShineParticles, DisplayObjectFactory, Pivot, Timeout} from "@azur-games/pixi-vip-framework";
 import {TextFactory} from "../../../../../../../factories/TextFactory";
-import {Pivot} from "@azur-games/pixi-vip-framework";
-import {Timeout} from "@azur-games/pixi-vip-framework";
 
 
 export class WinnerLabel extends AppearanceContainer {

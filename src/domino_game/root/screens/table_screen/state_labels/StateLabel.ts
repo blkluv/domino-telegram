@@ -1,9 +1,6 @@
 import {TweenMax} from "gsap";
 import {NineSlicePlane, Rectangle, Sprite} from "pixi.js";
-import {ShineParticles} from "../../../../../common/ShineParticles";
-import {DisplayObjectFactory} from "@azur-games/pixi-vip-framework";
-import {LanguageService} from "@azur-games/pixi-vip-framework";
-import {Pivot} from "@azur-games/pixi-vip-framework";
+import {LanguageService, ShineParticles, Pivot, DisplayObjectFactory} from "@azur-games/pixi-vip-framework";
 import {Letters} from "./state_label/Letters";
 
 

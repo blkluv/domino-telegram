@@ -266,7 +266,7 @@
                 <key>spriteScale</key>
                 <double>1</double>
                 <key>scale9Enabled</key>
-                <true/>
+                <false/>
                 <key>scale9Borders</key>
                 <rect>21,21,42,42</rect>
                 <key>scale9Paddings</key>
@@ -331,36 +331,6 @@
                 <rect>22,22,43,43</rect>
                 <key>scale9Paddings</key>
                 <rect>22,22,43,43</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/common/blue_button.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <true/>
-                <key>scale9Borders</key>
-                <rect>30,30,60,60</rect>
-                <key>scale9Paddings</key>
-                <rect>30,30,60,60</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/common/button_bottom_layer.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>28,28,57,57</rect>
-                <key>scale9Paddings</key>
-                <rect>28,28,57,57</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -451,21 +421,6 @@
                 <rect>34,34,10,10</rect>
                 <key>scale9Paddings</key>
                 <rect>20,20,39,39</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/common/grey_button.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>31,31,61,61</rect>
-                <key>scale9Paddings</key>
-                <rect>31,31,61,61</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -806,7 +761,6 @@
                 <false/>
             </struct>
             <key type="filename">../sources_belot/deposit/qr_icon.png</key>
-            <key type="filename">../sources_belot/lobby/red_dot.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0,0</point_f>
@@ -823,7 +777,6 @@
             </struct>
             <key type="filename">../sources_belot/deposit/red_bg.png</key>
             <key type="filename">../sources_belot/deposit/yellow_bg.png</key>
-            <key type="filename">../sources_belot/lobby/icon_setting.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0,0</point_f>
@@ -854,7 +807,6 @@
                 <false/>
             </struct>
             <key type="filename">../sources_belot/deposit/ton_btn_bg.png</key>
-            <key type="filename">../sources_belot/lobby/btn_gray.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0,0</point_f>
@@ -975,38 +927,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../sources_belot/lobby/bg_special_offer.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>75,134,150,267</rect>
-                <key>scale9Paddings</key>
-                <rect>75,134,150,267</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/block_mod.png</key>
-            <key type="filename">../sources_belot/lobby/classic_mod.png</key>
-            <key type="filename">../sources_belot/lobby/fives_mod.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>96,111,191,221</rect>
-                <key>scale9Paddings</key>
-                <rect>96,111,191,221</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">../sources_belot/lobby/blue_bar.png</key>
             <key type="filename">../sources_belot/lobby/orange_bar.png</key>
             <key type="filename">../sources_belot/lobby/purple_bar.png</key>
@@ -1021,21 +941,6 @@
                 <rect>13,15,26,30</rect>
                 <key>scale9Paddings</key>
                 <rect>13,15,26,30</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/btn_green.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <true/>
-                <key>scale9Borders</key>
-                <rect>28,24,24,47</rect>
-                <key>scale9Paddings</key>
-                <rect>24,24,47,47</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1054,111 +959,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../sources_belot/lobby/bundle_soft.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>63,49,126,97</rect>
-                <key>scale9Paddings</key>
-                <rect>63,49,126,97</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/bush.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>89,71,178,142</rect>
-                <key>scale9Paddings</key>
-                <rect>89,71,178,142</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/cards_gold.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <true/>
-                <key>scale9Borders</key>
-                <rect>51,51,58,54</rect>
-                <key>scale9Paddings</key>
-                <rect>40,40,80,80</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/cards_purple.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>40,40,80,80</rect>
-                <key>scale9Paddings</key>
-                <rect>40,40,80,80</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/cards_room_plate.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>57,20,2,40</rect>
-                <key>scale9Paddings</key>
-                <rect>20,20,39,40</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/cards_room_top.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <true/>
-                <key>scale9Borders</key>
-                <rect>29,21,29,37</rect>
-                <key>scale9Paddings</key>
-                <rect>23,21,45,41</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/cards_rooms.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>37,37,73,73</rect>
-                <key>scale9Paddings</key>
-                <rect>37,37,73,73</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">../sources_belot/lobby/circle_plate_menu.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -1171,55 +971,6 @@
                 <rect>33,3,66,118</rect>
                 <key>scale9Paddings</key>
                 <rect>33,33,66,66</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/crazy_mod.png</key>
-            <key type="filename">../sources_belot/lobby/fun_mod.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>95,70,189,140</rect>
-                <key>scale9Paddings</key>
-                <rect>95,70,189,140</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/crown.png</key>
-            <key type="filename">../sources_belot/lobby/domino.png</key>
-            <key type="filename">../sources_belot/lobby/lock.png</key>
-            <key type="filename">../sources_belot/lobby/tournament.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>19,19,37,37</rect>
-                <key>scale9Paddings</key>
-                <rect>19,19,37,37</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/currency_hard.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>20,20,39,39</rect>
-                <key>scale9Paddings</key>
-                <rect>20,20,39,39</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1238,21 +989,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../sources_belot/lobby/deco_line.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>2,110,3,219</rect>
-                <key>scale9Paddings</key>
-                <rect>2,110,3,219</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">../sources_belot/lobby/deposit_icon.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -1268,36 +1004,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../sources_belot/lobby/dot_nav_active.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>9,9,17,17</rect>
-                <key>scale9Paddings</key>
-                <rect>9,9,17,17</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/dot_nav_disactive.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>6,6,11,12</rect>
-                <key>scale9Paddings</key>
-                <rect>6,6,11,12</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">../sources_belot/lobby/edit_icon.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -1310,21 +1016,6 @@
                 <rect>14,14,28,28</rect>
                 <key>scale9Paddings</key>
                 <rect>14,14,28,28</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/eye.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>0.65</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>49,49,97,97</rect>
-                <key>scale9Paddings</key>
-                <rect>49,49,97,97</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1358,282 +1049,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../sources_belot/lobby/icon_back.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>21,17,41,33</rect>
-                <key>scale9Paddings</key>
-                <rect>21,17,41,33</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/icon_final_point.png</key>
-            <key type="filename">../sources_belot/lobby/withdraw_icon.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>9,9,18,18</rect>
-                <key>scale9Paddings</key>
-                <rect>9,9,18,18</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/icon_friends.png</key>
-            <key type="filename">../sources_belot/lobby/icon_message.png</key>
-            <key type="filename">../sources_belot/lobby/mask_prg_bar_lvl.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>15,15,29,29</rect>
-                <key>scale9Paddings</key>
-                <rect>15,15,29,29</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/icon_gift.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>25,28,49,56</rect>
-                <key>scale9Paddings</key>
-                <rect>25,28,49,56</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/icon_luckyspin_active.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>38,41,76,81</rect>
-                <key>scale9Paddings</key>
-                <rect>38,41,76,81</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/icon_luckyspin_disactive.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.513158,0.493827</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>38,41,76,81</rect>
-                <key>scale9Paddings</key>
-                <rect>38,41,76,81</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/icon_menu_private.png</key>
-            <key type="filename">../sources_belot/lobby/icon_menu_skins.png</key>
-            <key type="filename">../sources_belot/lobby/icon_menu_tournament.png</key>
-            <key type="filename">../sources_belot/lobby/icon_menu_vip.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>18,18,36,36</rect>
-                <key>scale9Paddings</key>
-                <rect>18,18,36,36</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/icon_padlock.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>16,21,32,41</rect>
-                <key>scale9Paddings</key>
-                <rect>16,21,32,41</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/icon_plus.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>10,10,19,19</rect>
-                <key>scale9Paddings</key>
-                <rect>10,10,19,19</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/icon_store.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>26,28,51,56</rect>
-                <key>scale9Paddings</key>
-                <rect>26,28,51,56</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/king_mod.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>90,112,180,223</rect>
-                <key>scale9Paddings</key>
-                <rect>90,112,180,223</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/king_mode_icon_1.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>73,61,147,121</rect>
-                <key>scale9Paddings</key>
-                <rect>73,61,147,121</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/king_mode_icon_2.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>73,69,146,137</rect>
-                <key>scale9Paddings</key>
-                <rect>73,69,146,137</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/king_mode_icon_3.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>71,70,143,140</rect>
-                <key>scale9Paddings</key>
-                <rect>71,70,143,140</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/king_mode_icon_4.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>74,64,148,127</rect>
-                <key>scale9Paddings</key>
-                <rect>74,64,148,127</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/king_mode_icon_5.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>74,71,148,141</rect>
-                <key>scale9Paddings</key>
-                <rect>74,71,148,141</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/king_mode_icon_6.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>74,72,147,145</rect>
-                <key>scale9Paddings</key>
-                <rect>74,72,147,145</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/light.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>55,100,110,199</rect>
-                <key>scale9Paddings</key>
-                <rect>55,100,110,199</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">../sources_belot/lobby/lobby_bg.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -1649,81 +1064,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../sources_belot/lobby/min_level_bg.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>25,25,50,50</rect>
-                <key>scale9Paddings</key>
-                <rect>25,25,50,50</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/plate_bubble_mini.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>30,30,60,60</rect>
-                <key>scale9Paddings</key>
-                <rect>30,30,60,60</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/plate_menu.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>545,56,1090,112</rect>
-                <key>scale9Paddings</key>
-                <rect>545,56,1090,112</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/plate_name_mod.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>16,19,31,37</rect>
-                <key>scale9Paddings</key>
-                <rect>16,19,31,37</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/plate_store.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <true/>
-                <key>scale9Borders</key>
-                <rect>52,0,24,160</rect>
-                <key>scale9Paddings</key>
-                <rect>32,40,64,80</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">../sources_belot/lobby/room_bg.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -1736,21 +1076,6 @@
                 <rect>46,46,6,6</rect>
                 <key>scale9Paddings</key>
                 <rect>25,25,49,49</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/room_card_bg.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>35,35,69,69</rect>
-                <key>scale9Paddings</key>
-                <rect>35,35,69,69</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1815,21 +1140,6 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../sources_belot/lobby/store_button.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0,0</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>148,0,22,112</rect>
-                <key>scale9Paddings</key>
-                <rect>55,28,110,56</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">../sources_belot/lobby/tab_blue.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -1862,7 +1172,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../sources_belot/lobby/vinetka_bg.png</key>
+            <key type="filename">../sources_belot/lobby/withdraw_icon.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0,0</point_f>
@@ -1871,24 +1181,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>78,78,156,156</rect>
+                <rect>9,9,18,18</rect>
                 <key>scale9Paddings</key>
-                <rect>78,78,156,156</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../sources_belot/lobby/waves.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.431574,0.0140056</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>535,89,1071,179</rect>
-                <key>scale9Paddings</key>
-                <rect>535,89,1071,179</rect>
+                <rect>9,9,18,18</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>

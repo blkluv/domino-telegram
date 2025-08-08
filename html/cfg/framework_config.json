@@ -57,11 +57,7 @@
       "assets/sounds/points/p5.mp3"
     ],
     "spines": [
-      "assets/spine/all_cats.json",
-      "assets/spine/wheel/wheel_spin.json",
-      "assets/spine/special_offer_girl/special_offer_girl.json",
-      "assets/spine/lobby/Lobby.json",
-      "assets/spine/loupe/Loupe.json",
+      "assets/spine/cats/cats.json",
       "assets/spine/level_up/level_up.json",
       "assets/spine/gifts/gifts.json"
     ],

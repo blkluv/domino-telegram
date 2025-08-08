@@ -5,8 +5,6 @@ import {ChatEventMessage} from "../../services/socket_service/socket_message_dat
 import {LevelUpEventMessage} from "../../services/socket_service/socket_message_data/user_events_message/LevelUpEventMessage";
 import {DialogPopupData} from "./popups_container/dialog_popup/DialogPopupData";
 import {DialogPopup} from "./popups_container/DialogPopup";
-import {EditProfilePopup} from "./popups_container/EditProfilePopup";
-import {FriendsPopup} from "./popups_container/FriendsPopup";
 import {InfoPopupData} from "./popups_container/info_popup/InfoPopupData";
 import {InfoPopup} from "./popups_container/InfoPopup";
 import {InputPopupData} from "./popups_container/input_popup/InputPopupData";
@@ -14,23 +12,15 @@ import {InputPopup} from "./popups_container/InputPopup";
 import {LeaveGamePopup} from "./popups_container/LeaveGamePopup";
 import {LevelUpPopup} from "./popups_container/LevelUpPopup";
 import {MaintenancePopup} from "./popups_container/MaintenancePopup";
-import {MessagesPopup} from "./popups_container/MessagesPopup";
 import {ProfilePopup} from "./popups_container/ProfilePopup";
 import {SettingsPopup} from "./popups_container/SettingsPopup";
-import {StorePopup} from "./popups_container/StorePopup";
 import {TutorialPopup} from "./popups_container/TutorialPopup";
-import {WheelPopup} from "./popups_container/WheelPopup";
 import {DepositPopup} from "./popups_container/DepositPopup";
 
 
 export class PopupsContainer extends Sprite {
     private profilePopup: ProfilePopup;
-    private editProfilePopup: EditProfilePopup;
     private settingsPopup: SettingsPopup;
-    private friendsPopup: FriendsPopup;
-    private wheelPopup: WheelPopup;
-    private messagesPopup: MessagesPopup;
-    private storePopup: StorePopup;
     private dialogPopup: DialogPopup;
     private leaveGamePopup: LeaveGamePopup;
     private levelUpPopup: LevelUpPopup;
@@ -44,18 +34,8 @@ export class PopupsContainer extends Sprite {
         super();
         addEventListener(GameEvents.OPEN_PROFILE_POPUP, this.onOpenProfilePopup.bind(this));
         addEventListener(GameEvents.CLOSE_PROFILE_POPUP, this.onCloseProfilePopup.bind(this));
-        addEventListener(GameEvents.OPEN_EDIT_PROFILE_POPUP, this.onOpenEditProfilePopup.bind(this));
-        addEventListener(GameEvents.CLOSE_EDIT_PROFILE_POPUP, this.onCloseEditProfilePopup.bind(this));
         addEventListener(GameEvents.OPEN_SETTINGS_POPUP, this.onOpenSettingsPopup.bind(this));
         addEventListener(GameEvents.CLOSE_SETTINGS_POPUP, this.onCloseSettingsPopup.bind(this));
-        addEventListener(GameEvents.OPEN_FRIENDS_POPUP, this.onOpenFriendsPopup.bind(this));
-        addEventListener(GameEvents.CLOSE_FRIENDS_POPUP, this.onCloseFriendsPopup.bind(this));
-        addEventListener(GameEvents.OPEN_WHEEL_POPUP, this.onOpenWheelPopup.bind(this));
-        addEventListener(GameEvents.CLOSE_WHEEL_POPUP, this.onCloseWheelPopup.bind(this));
-        addEventListener(GameEvents.OPEN_MESSAGES_POPUP, this.onOpenMessagesPopup.bind(this));
-        addEventListener(GameEvents.CLOSE_MESSAGES_POPUP, this.onCloseMessagesPopup.bind(this));
-        addEventListener(GameEvents.OPEN_STORE_POPUP, this.onOpenStorePopup.bind(this));
-        addEventListener(GameEvents.CLOSE_STORE_POPUP, this.onCloseStorePopup.bind(this));
         addEventListener(GameEvents.OPEN_DIALOG_POPUP, this.onOpenDialogPopup.bind(this));
         addEventListener(GameEvents.CLOSE_DIALOG_POPUP, this.onCloseDialogPopup.bind(this));
         addEventListener(GameEvents.OPEN_LEAVE_GAME_POPUP, this.onOpenLeaveGamePopup.bind(this));
@@ -72,8 +52,6 @@ export class PopupsContainer extends Sprite {
         addEventListener(GameEvents.CLOSE_MAINTENANCE_POPUP, this.onCloseMaintenancePopup.bind(this));
         addEventListener(GameEvents.OPEN_DEPOSIT_POPUP, this.onOpenDepositPopup.bind(this));
         addEventListener(GameEvents.CLOSE_DEPOSIT_POPUP, this.onCloseDepositPopup.bind(this));
-        // setTimeout(() => this.onOpenDepositPopup(), 3000);
-
     }
 
     onOpenMaintenancePopup(): void {
@@ -210,87 +188,6 @@ export class PopupsContainer extends Sprite {
         this.dialogPopup = null;
     }
 
-    onOpenStorePopup(): void {
-        if (this.storePopup) {
-            return;
-        }
-
-        this.storePopup = new StorePopup();
-        this.addChild(this.storePopup);
-    }
-
-    async onCloseStorePopup(): Promise<void> {
-        if (!this.storePopup) {
-            return;
-        }
-        await this.storePopup.show(false);
-        this.removeChild(this.storePopup);
-        this.storePopup.destroy();
-        this.storePopup = null;
-    }
-
-    onOpenMessagesPopup(e: MessageEvent): void {
-        if (this.messagesPopup) {
-            return;
-        }
-        dispatchEvent(new MessageEvent(GameEvents.SET_SCREEN_BLUR));
-        let messages: ChatEventMessage[] = e.data?.messages;
-        let profile: ProfileData = e.data?.profile;
-        this.messagesPopup = new MessagesPopup(messages, profile);
-        this.addChild(this.messagesPopup);
-    }
-
-    async onCloseMessagesPopup(): Promise<void> {
-        if (!this.messagesPopup) {
-            return;
-        }
-        if (!this.friendsPopup && !this.profilePopup) {
-            dispatchEvent(new MessageEvent(GameEvents.CLEAR_SCREEN_BLUR));
-        }
-        await this.messagesPopup.show(false);
-        this.removeChild(this.messagesPopup);
-        this.messagesPopup.destroy();
-        this.messagesPopup = null;
-    }
-
-    onOpenWheelPopup(): void {
-        if (this.wheelPopup) {
-            return;
-        }
-        this.wheelPopup = new WheelPopup();
-        this.addChild(this.wheelPopup);
-    }
-
-    async onCloseWheelPopup(): Promise<void> {
-        if (!this.wheelPopup) {
-            return;
-        }
-        await this.wheelPopup.show(false);
-        this.removeChild(this.wheelPopup);
-        this.wheelPopup.destroy();
-        this.wheelPopup = null;
-    }
-
-    onOpenFriendsPopup(): void {
-        if (this.friendsPopup) {
-            return;
-        }
-        dispatchEvent(new MessageEvent(GameEvents.SET_SCREEN_BLUR));
-        this.friendsPopup = new FriendsPopup();
-        this.addChild(this.friendsPopup);
-    }
-
-    async onCloseFriendsPopup(): Promise<void> {
-        if (!this.friendsPopup) {
-            return;
-        }
-        dispatchEvent(new MessageEvent(GameEvents.CLEAR_SCREEN_BLUR));
-        await this.friendsPopup.show(false);
-        this.removeChild(this.friendsPopup);
-        this.friendsPopup.destroy();
-        this.friendsPopup = null;
-    }
-
     onOpenSettingsPopup(): void {
         if (this.settingsPopup) {
             return;
@@ -311,24 +208,6 @@ export class PopupsContainer extends Sprite {
         this.settingsPopup = null;
     }
 
-    onOpenEditProfilePopup(): void {
-        if (this.editProfilePopup) {
-            return;
-        }
-        this.editProfilePopup = new EditProfilePopup();
-        this.addChild(this.editProfilePopup);
-    }
-
-    async onCloseEditProfilePopup(): Promise<void> {
-        if (!this.editProfilePopup) {
-            return;
-        }
-        await this.editProfilePopup.show(false);
-        this.removeChild(this.editProfilePopup);
-        this.editProfilePopup.destroy();
-        this.editProfilePopup = null;
-    }
-
     onOpenProfilePopup(e: MessageEvent): void {
         if (this.profilePopup) {
             return;
@@ -344,9 +223,7 @@ export class PopupsContainer extends Sprite {
         if (!this.profilePopup) {
             return;
         }
-        if (!this.friendsPopup && !this.messagesPopup) {
-            dispatchEvent(new MessageEvent(GameEvents.CLEAR_SCREEN_BLUR));
-        }
+        dispatchEvent(new MessageEvent(GameEvents.CLEAR_SCREEN_BLUR));
         await this.profilePopup.show(false);
         this.removeChild(this.profilePopup);
         this.profilePopup.destroy();

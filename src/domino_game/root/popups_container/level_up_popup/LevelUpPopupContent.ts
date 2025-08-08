@@ -12,8 +12,7 @@ import {GameEvents} from "../../../../GameEvents";
 import {LevelUpEventMessage} from "../../../../services/socket_service/socket_message_data/user_events_message/LevelUpEventMessage";
 import {SocketService} from "../../../../services/SocketService";
 import {UserEventsService} from "../../../../services/UserEventsService";
-import {Pivot} from "@azur-games/pixi-vip-framework";
-import {Shine} from "../wheel_popup/wheel_popup_content/Shine";
+import {Pivot, Shine} from "@azur-games/pixi-vip-framework";
 
 
 export class LevelUpPopupContent extends AppearanceContainer {

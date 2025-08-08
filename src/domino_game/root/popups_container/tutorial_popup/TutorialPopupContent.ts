@@ -1,6 +1,6 @@
 import {Sprite} from "pixi.js";
 import {GameEvents} from "../../../../GameEvents";
-import {BigPopupBody} from "../friends_popup/friends_popup_content/BigPopupBody";
+import {BigPopupBody} from "../../../../common/BigPopupBody";
 import {TutorialPage} from "./tutorial_popup_content/TutorialPage";
 import {TutorialHeaderTabs} from "./tutorial_popup_content/TutorialHeaderTabs";
 import {TutorialSidebar} from "./tutorial_popup_content/TutorialSidebar";

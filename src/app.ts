@@ -126,6 +126,7 @@ export class DominoGame implements IGame {
     };
 
     private appCreate(): void {
+        console.log("version 1");
         DominoGame.instance.app = new PIXI.Application({
             autoDensity: true,
             //backgroundColor: 0x0,
