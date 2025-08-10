@@ -45,4 +45,6 @@
     "socket.io": "4.8.1",
     "socket.io-client": "4.8.1"
   }
+  "publishConfig": {
+  "@azur-games:registry": "https://npm.pkg.github.com"
 }
